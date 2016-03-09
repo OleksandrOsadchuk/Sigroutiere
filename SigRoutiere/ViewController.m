@@ -7,14 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "quiz.h"
 
 @interface ViewController ()
+@property (strong,nonatomic)IBOutlet UIScrollView *scrollView;
+
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+
+    self.scrollView.contentSize = CGSizeMake(400, 1000);
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -24,4 +30,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
+- (IBAction)danslaprochaineversion:(id)sender {
+    UIAlertView *alertview = [[UIAlertView alloc]initWithTitle:@""
+                                                     message:@"Dans une prochaine version"
+                                                    delegate:nil
+                                            cancelButtonTitle:@"OK"
+                                            otherButtonTitles:nil, nil];
+    [alertview show];
+}
 @end
