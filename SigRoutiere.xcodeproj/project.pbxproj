@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A552EA1C95C625009253E1 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A552E91C95C625009253E1 /* QuizViewController.m */; };
 		07CB74851C7027AB007C8659 /* SRCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB74841C7027AB007C8659 /* SRCustomSegue.m */; };
-		07D1C96B1C1B97AA00468BF1 /* quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1C96A1C1B97AA00468BF1 /* quiz.m */; };
+		07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1C96A1C1B97AA00468BF1 /* Quizz.m */; };
 		07FDBA1C1C16505600339278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA1B1C16505600339278 /* main.m */; };
 		07FDBA1F1C16505600339278 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA1E1C16505600339278 /* AppDelegate.m */; };
 		07FDBA221C16505600339278 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA211C16505600339278 /* ViewController.m */; };
@@ -29,10 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A552E81C95C625009253E1 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		07A552E91C95C625009253E1 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		07CB74831C7027AB007C8659 /* SRCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCustomSegue.h; sourceTree = "<group>"; };
 		07CB74841C7027AB007C8659 /* SRCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCustomSegue.m; sourceTree = "<group>"; };
-		07D1C9691C1B97AA00468BF1 /* quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quiz.h; sourceTree = "<group>"; };
-		07D1C96A1C1B97AA00468BF1 /* quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quiz.m; sourceTree = "<group>"; };
+		07D1C9691C1B97AA00468BF1 /* Quizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quizz.h; sourceTree = "<group>"; };
+		07D1C96A1C1B97AA00468BF1 /* Quizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quizz.m; sourceTree = "<group>"; };
 		07FDBA161C16505600339278 /* SigRoutiere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigRoutiere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FDBA1A1C16505600339278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FDBA1B1C16505600339278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,8 +94,10 @@
 				07FDBA1E1C16505600339278 /* AppDelegate.m */,
 				07CB74831C7027AB007C8659 /* SRCustomSegue.h */,
 				07CB74841C7027AB007C8659 /* SRCustomSegue.m */,
-				07D1C9691C1B97AA00468BF1 /* quiz.h */,
-				07D1C96A1C1B97AA00468BF1 /* quiz.m */,
+				07D1C9691C1B97AA00468BF1 /* Quizz.h */,
+				07D1C96A1C1B97AA00468BF1 /* Quizz.m */,
+				07A552E81C95C625009253E1 /* QuizViewController.h */,
+				07A552E91C95C625009253E1 /* QuizViewController.m */,
 				07FDBA201C16505600339278 /* ViewController.h */,
 				07FDBA211C16505600339278 /* ViewController.m */,
 				07FDBA231C16505600339278 /* Main.storyboard */,
@@ -182,6 +187,7 @@
 					};
 					07FDBA2E1C16505700339278 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = K5XLYR8Y2Y;
 						TestTargetID = 07FDBA151C16505600339278;
 					};
 				};
@@ -232,9 +238,10 @@
 			files = (
 				07FDBA221C16505600339278 /* ViewController.m in Sources */,
 				07FDBA1F1C16505600339278 /* AppDelegate.m in Sources */,
-				07D1C96B1C1B97AA00468BF1 /* quiz.m in Sources */,
+				07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */,
 				07FDBA1C1C16505600339278 /* main.m in Sources */,
 				07CB74851C7027AB007C8659 /* SRCustomSegue.m in Sources */,
+				07A552EA1C95C625009253E1 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Oleksandr Osadchuk (P248RP9AWW)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oleksandr Osadchuk (K5XLYR8Y2Y)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oleksandr Osadchuk (P248RP9AWW)";
 				INFOPLIST_FILE = SigRoutiere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SigRoutiere;
-				PROVISIONING_PROFILE = "ace8a7e5-de5f-48e5-ac9f-af7781966dad";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -371,12 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Oleksandr Osadchuk (P248RP9AWW)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oleksandr Osadchuk (K5XLYR8Y2Y)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oleksandr Osadchuk (P248RP9AWW)";
 				INFOPLIST_FILE = SigRoutiere/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SigRoutiere;
-				PROVISIONING_PROFILE = "ace8a7e5-de5f-48e5-ac9f-af7781966dad";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

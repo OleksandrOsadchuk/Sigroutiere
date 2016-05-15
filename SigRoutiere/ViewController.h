@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-- (IBAction)danslaprochaineversion:(id)sender;
+
 
 @end
 
