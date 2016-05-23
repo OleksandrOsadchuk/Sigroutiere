@@ -10,6 +10,7 @@
 		07A552EA1C95C625009253E1 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A552E91C95C625009253E1 /* QuizViewController.m */; };
 		07CB74851C7027AB007C8659 /* SRCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB74841C7027AB007C8659 /* SRCustomSegue.m */; };
 		07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1C96A1C1B97AA00468BF1 /* Quizz.m */; };
+		07D27ACE1CEB98290020A738 /* UINavTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D27ACD1CEB98290020A738 /* UINavTableVC.m */; };
 		07FDBA1C1C16505600339278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA1B1C16505600339278 /* main.m */; };
 		07FDBA1F1C16505600339278 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA1E1C16505600339278 /* AppDelegate.m */; };
 		07FDBA221C16505600339278 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA211C16505600339278 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		07CB74841C7027AB007C8659 /* SRCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCustomSegue.m; sourceTree = "<group>"; };
 		07D1C9691C1B97AA00468BF1 /* Quizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quizz.h; sourceTree = "<group>"; };
 		07D1C96A1C1B97AA00468BF1 /* Quizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quizz.m; sourceTree = "<group>"; };
+		07D27ACC1CEB98290020A738 /* UINavTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavTableVC.h; sourceTree = "<group>"; };
+		07D27ACD1CEB98290020A738 /* UINavTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavTableVC.m; sourceTree = "<group>"; };
 		07FDBA161C16505600339278 /* SigRoutiere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigRoutiere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FDBA1A1C16505600339278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FDBA1B1C16505600339278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				07FDBA201C16505600339278 /* ViewController.h */,
 				07FDBA211C16505600339278 /* ViewController.m */,
 				07FDBA231C16505600339278 /* Main.storyboard */,
+				07D27ACC1CEB98290020A738 /* UINavTableVC.h */,
+				07D27ACD1CEB98290020A738 /* UINavTableVC.m */,
 				07FDBA261C16505600339278 /* Images.xcassets */,
 				07FDBA281C16505600339278 /* LaunchScreen.xib */,
 				07FDBA191C16505600339278 /* Supporting Files */,
@@ -236,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D27ACE1CEB98290020A738 /* UINavTableVC.m in Sources */,
 				07FDBA221C16505600339278 /* ViewController.m in Sources */,
 				07FDBA1F1C16505600339278 /* AppDelegate.m in Sources */,
 				07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */,

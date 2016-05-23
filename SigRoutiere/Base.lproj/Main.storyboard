@@ -154,14 +154,14 @@
         <!--Table View Controller-prescription-->
         <scene sceneID="tlA-wy-zTh">
             <objects>
-                <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="PcJ-eo-D6A" userLabel="Table View Controller-prescription" sceneMemberID="viewController">
+                <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="PcJ-eo-D6A" userLabel="Table View Controller-prescription" customClass="UINavTableVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="orn-Yc-7nX">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle=" " id="Kz1-9D-smw">
+                            <tableViewSection headerTitle=" header here" id="Kz1-9D-smw">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="2p3-at-3ni">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -214,6 +214,11 @@
                                                 <constraint firstItem="O16-D7-c11" firstAttribute="top" secondItem="Olu-TA-cIo" secondAttribute="top" constant="12" id="XUD-Ch-XKW"/>
                                                 <constraint firstAttribute="bottom" secondItem="O16-D7-c11" secondAttribute="bottom" constant="12" id="o60-hY-Pj5"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="HI3-PL-k1o"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="dEX-4n-K9V">
@@ -247,6 +252,11 @@
                                                 <constraint firstItem="WPK-GJ-Frz" firstAttribute="top" secondItem="NZR-F8-emm" secondAttribute="top" constant="12" id="cNk-IJ-LM8"/>
                                                 <constraint firstAttribute="bottom" secondItem="GOe-OZ-tqh" secondAttribute="bottom" constant="18" id="lao-nb-Cza"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="lao-nb-Cza"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Oww-Bc-lrM">
@@ -279,6 +289,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="Hmy-LO-Z0u" secondAttribute="trailing" constant="12" id="xFm-YZ-wbT"/>
                                                 <constraint firstAttribute="bottom" secondItem="WGQ-cc-gnb" secondAttribute="bottom" constant="18" id="zVK-ee-lNE"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="zVK-ee-lNE"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="825-FU-moh">
@@ -312,6 +327,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="lWY-JU-aJN" secondAttribute="centerY" id="fkd-Lp-6qw"/>
                                                 <constraint firstItem="lWY-JU-aJN" firstAttribute="top" secondItem="1T3-iN-mLn" secondAttribute="top" constant="12" id="jPN-gH-sfK"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="8vV-SZ-1vD"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Rik-4F-vng">
@@ -883,7 +903,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaA-th-fhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="295" y="284"/>
+            <point key="canvasLocation" x="309" y="284"/>
         </scene>
         <!--View Controller - test-->
         <scene sceneID="FGc-HG-nta">
@@ -1119,7 +1139,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gcb-A0-Cqd" id="u59-7f-sFl">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Panneaux de prescription" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RnP-xn-6Zn">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Panneaux de danger" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RnP-xn-6Zn">
                                                     <rect key="frame" x="16" y="22" width="568" height="36"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>

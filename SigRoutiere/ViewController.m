@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "QuizViewController.h"
-#import "quiz.h"
+#import "Quizz.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
