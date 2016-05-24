@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u2H-8Y-G3I">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -19,21 +19,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="SIGNALISATION ROUTIÈRE " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b5U-MF-Qsj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" misplaced="YES" text="SIGNALISATION ROUTIÈRE " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="b5U-MF-Qsj">
                                 <rect key="frame" x="16" y="34" width="568" height="60"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Panneaux - petit guide de signalisation routière du Québec." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-dE-9OL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Panneaux - petit guide de signalisation routière du Québec." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-dE-9OL">
                                 <rect key="frame" x="16" y="104" width="568" height="59"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.12941176470588237" green="0.40000000000000002" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-tj-JAl">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-tj-JAl">
                                 <rect key="frame" x="16" y="181" width="568" height="60"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
@@ -42,10 +42,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PcJ-eo-D6A" kind="custom" customClass="SRCustomSegue" id="d33-sB-xSx"/>
+                                    <segue destination="PcJ-eo-D6A" kind="show" id="766-EI-a3q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-b8-Tts">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-b8-Tts">
                                 <rect key="frame" x="16" y="261" width="568" height="60"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
@@ -54,10 +54,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ovH-zb-1Us" kind="custom" customClass="SRCustomSegue" id="Hq8-RP-flf"/>
+                                    <segue destination="ovH-zb-1Us" kind="show" id="Hq8-RP-flf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-wd-QZJ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-wd-QZJ">
                                 <rect key="frame" x="16" y="341" width="568" height="60"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
@@ -66,10 +66,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GNe-0l-fHg" kind="custom" customClass="SRCustomSegue" id="KAc-uI-som"/>
+                                    <segue destination="GNe-0l-fHg" kind="show" id="KAc-uI-som"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-gm-7B4">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-gm-7B4">
                                 <rect key="frame" x="16" y="421" width="568" height="59"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
@@ -78,10 +78,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Jbk-Qp-9PC" kind="custom" customClass="SRCustomSegue" id="0p9-a3-hb2"/>
+                                    <segue destination="Jbk-Qp-9PC" kind="show" id="0p9-a3-hb2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfu-Qc-8pS">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfu-Qc-8pS">
                                 <rect key="frame" x="16" y="500" width="568" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
@@ -139,6 +139,8 @@
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="height" secondItem="V3Z-tj-JAl" secondAttribute="height" id="xdl-DE-32b"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="nuv-bU-FhC"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="dangerBtn" destination="h3s-b8-Tts" id="wuY-aK-mSc"/>
                         <outlet property="indBtn" destination="eic-gm-7B4" id="BL4-0B-qAU"/>
@@ -149,19 +151,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="-643"/>
+            <point key="canvasLocation" x="1385" y="-490"/>
         </scene>
         <!--Table View Controller-prescription-->
         <scene sceneID="tlA-wy-zTh">
             <objects>
                 <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="PcJ-eo-D6A" userLabel="Table View Controller-prescription" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="orn-Yc-7nX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle=" " id="Kz1-9D-smw">
+                            <tableViewSection id="Kz1-9D-smw">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="2p3-at-3ni">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -365,6 +367,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="FOC-DQ-If1" secondAttribute="bottom" constant="18" id="w4S-oC-oxA"/>
                                                 <constraint firstAttribute="centerY" secondItem="lTX-Og-eh7" secondAttribute="centerY" id="xQi-4d-LLg"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="w4S-oC-oxA"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="a3p-zQ-kHA">
@@ -398,6 +405,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="c7S-eh-40L" secondAttribute="trailing" constant="12" id="vPS-XM-iP9"/>
                                                 <constraint firstItem="Ot0-dc-6c8" firstAttribute="top" secondItem="8WC-4t-rYw" secondAttribute="top" constant="18" id="yBV-dv-1xH"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="Gne-Ci-FVv"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="2zf-HC-Q9I">
@@ -430,6 +442,11 @@
                                                 <constraint firstItem="RGD-Mx-m6t" firstAttribute="top" secondItem="oPB-KQ-SKV" secondAttribute="top" constant="12" id="vbe-Ac-9It"/>
                                                 <constraint firstAttribute="centerY" secondItem="tv0-GV-WS5" secondAttribute="centerY" id="zmm-gD-4cI"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="ikS-On-hYl"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="DD2-0k-ufz">
@@ -462,6 +479,11 @@
                                                 <constraint firstItem="Lh4-ju-CHK" firstAttribute="leading" secondItem="4uP-sc-WZb" secondAttribute="leading" constant="18" id="gh9-DQ-nq2"/>
                                                 <constraint firstAttribute="centerY" secondItem="Lh4-ju-CHK" secondAttribute="centerY" id="hn7-RJ-qXw"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="MKT-8R-hZ6"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="zXp-or-0Uh">
@@ -494,6 +516,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="KJ0-qC-Upg" secondAttribute="centerY" id="v00-57-0bG"/>
                                                 <constraint firstItem="xmM-TS-yK7" firstAttribute="leading" secondItem="KJ0-qC-Upg" secondAttribute="trailing" constant="18" id="yxk-EZ-bAO"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="YOJ-WS-xF7"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="xkX-RG-WYT">
@@ -527,6 +554,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="jBl-9N-wSe" secondAttribute="bottom" constant="12" id="nP9-dl-j2g"/>
                                                 <constraint firstItem="dL4-EW-Fnx" firstAttribute="top" secondItem="Qjm-35-78a" secondAttribute="top" constant="18" id="pWL-oS-8BB"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="hDz-Yc-WL3"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="CSI-kW-PY0">
@@ -559,6 +591,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="OgQ-sQ-11S" secondAttribute="centerY" id="v0g-iZ-zaB"/>
                                                 <constraint firstItem="P4U-DK-dMQ" firstAttribute="leading" secondItem="OgQ-sQ-11S" secondAttribute="trailing" constant="18" id="vgH-mO-UGW"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="etR-w5-K4U"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="7oL-pK-C55">
@@ -591,6 +628,11 @@
                                                 <constraint firstItem="gRk-mf-Z4f" firstAttribute="leading" secondItem="3Ij-zf-F3F" secondAttribute="trailing" constant="18" id="uV2-oY-wPN"/>
                                                 <constraint firstItem="gRk-mf-Z4f" firstAttribute="top" secondItem="MBc-Ug-wcP" secondAttribute="top" constant="12" id="yq1-ao-JHk"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="AOT-6z-JM4"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="ZdA-N1-r1s">
@@ -623,6 +665,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="9Vq-hM-bAg" secondAttribute="bottom" constant="12" id="sFY-wc-Yj4"/>
                                                 <constraint firstAttribute="bottom" secondItem="3WA-ZP-sIx" secondAttribute="bottom" constant="18" id="zxX-F0-4j4"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="zxX-F0-4j4"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="8yk-NJ-mIQ">
@@ -656,6 +703,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="RkQ-Jf-I7J" secondAttribute="bottom" constant="18" id="uZu-Je-ICk"/>
                                                 <constraint firstAttribute="centerY" secondItem="RkQ-Jf-I7J" secondAttribute="centerY" id="zZn-n5-qOj"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="uZu-Je-ICk"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Ev7-Di-4qu">
@@ -688,6 +740,11 @@
                                                 <constraint firstItem="12T-iE-nuc" firstAttribute="top" secondItem="bNj-h0-aR2" secondAttribute="top" constant="18" id="lXP-qc-toq"/>
                                                 <constraint firstItem="Gye-D4-nWe" firstAttribute="top" secondItem="bNj-h0-aR2" secondAttribute="top" constant="12" id="pCe-CP-Ttj"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="gQx-PB-Apd"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="hQP-NF-8wP">
@@ -721,6 +778,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="xSS-JZ-3Uy" secondAttribute="trailing" constant="12" id="r4D-ev-FbJ"/>
                                                 <constraint firstAttribute="bottom" secondItem="xSS-JZ-3Uy" secondAttribute="bottom" constant="12" id="ssz-D0-sg5"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="oZk-EC-O0h"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="tfx-VP-2Qv">
@@ -754,6 +816,11 @@
                                                 <constraint firstItem="SIE-Qt-TxC" firstAttribute="top" secondItem="gYY-SR-UOc" secondAttribute="top" constant="12" id="h8K-AB-FiK"/>
                                                 <constraint firstAttribute="centerY" secondItem="SIE-Qt-TxC" secondAttribute="centerY" id="wHu-0X-mQK"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="ZAY-Dh-dnp"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="4eZ-Io-nod">
@@ -787,6 +854,11 @@
                                                 <constraint firstItem="Yup-OC-CAB" firstAttribute="top" secondItem="F77-Gx-USM" secondAttribute="top" constant="12" id="nck-cb-GBV"/>
                                                 <constraint firstAttribute="bottom" secondItem="duO-Tr-uBc" secondAttribute="bottom" constant="18" id="wwL-Aj-fbq"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="wwL-Aj-fbq"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="xH3-kR-eQr">
@@ -819,6 +891,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="XLI-AG-B2D" secondAttribute="centerY" id="sWX-4S-Uab"/>
                                                 <constraint firstAttribute="bottom" secondItem="XLI-AG-B2D" secondAttribute="bottom" constant="12" id="yid-7X-btd"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="rcQ-Sw-bzU"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="aZC-pZ-7ZV">
@@ -852,6 +929,11 @@
                                                 <constraint firstItem="mje-Vg-grF" firstAttribute="top" secondItem="YH1-AI-pJB" secondAttribute="top" constant="12" id="iwT-vJ-WU3"/>
                                                 <constraint firstItem="GT7-Cd-d4z" firstAttribute="top" secondItem="YH1-AI-pJB" secondAttribute="top" constant="18" id="sYQ-zd-0Ob"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="QwK-Ae-YzF"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Iiu-MM-ALS">
@@ -884,9 +966,14 @@
                                                 <constraint firstAttribute="centerY" secondItem="mrK-QR-cnW" secondAttribute="centerY" id="kV7-Fc-ow4"/>
                                                 <constraint firstItem="Vtx-Zy-cVV" firstAttribute="leading" secondItem="mrK-QR-cnW" secondAttribute="trailing" constant="18" id="tim-XN-22x"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="W8v-tm-1AL"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="custom" customClass="SRCustomSegue" id="vAk-tz-GWG"/>
+                                            <segue destination="u2H-8Y-G3I" kind="show" id="vAk-tz-GWG"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -898,6 +985,7 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
                 </tableViewController>
@@ -917,16 +1005,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaJ-L9-9Cq" userLabel="ViewLine">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaJ-L9-9Cq" userLabel="ViewLine">
                                 <rect key="frame" x="8" y="28" width="584" height="171"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="Auto-05" translatesAutoresizingMaskIntoConstraints="NO" id="he2-zb-KV8">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" misplaced="YES" image="Auto-05" translatesAutoresizingMaskIntoConstraints="NO" id="he2-zb-KV8">
                                         <rect key="frame" x="230" y="8" width="124" height="123"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="he2-zb-KV8" secondAttribute="height" multiplier="1:1" constant="1" id="k8b-ct-1fD"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Ce panneau indique:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WO2-tA-A4x">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Ce panneau indique:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WO2-tA-A4x">
                                         <rect key="frame" x="201" y="139" width="182" height="24"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -944,10 +1032,10 @@
                                     <constraint firstAttribute="centerX" secondItem="he2-zb-KV8" secondAttribute="centerX" id="m4Q-4c-FKR"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdw-EH-etm" userLabel="ViewLine">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zdw-EH-etm" userLabel="ViewLine">
                                 <rect key="frame" x="8" y="199" width="584" height="222"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxn-ut-sTH">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxn-ut-sTH">
                                         <rect key="frame" x="10" y="8" width="564" height="58"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -962,7 +1050,7 @@
                                             <action selector="touchOfferBtn:" destination="flS-j6-GXG" eventType="touchUpInside" id="w4r-L1-dpB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yh3-Ph-sT2">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yh3-Ph-sT2">
                                         <rect key="frame" x="10" y="82" width="564" height="58"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -977,7 +1065,7 @@
                                             <action selector="touchOfferBtn:" destination="flS-j6-GXG" eventType="touchUpInside" id="xJF-A4-Nr2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-TM-Ai5">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhF-TM-Ai5">
                                         <rect key="frame" x="10" y="156" width="564" height="58"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -1014,20 +1102,20 @@
                                     <constraint firstItem="fhF-TM-Ai5" firstAttribute="top" secondItem="Yh3-Ph-sT2" secondAttribute="bottom" constant="16" id="xzF-x6-Ztg"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5o-pw-wXD" userLabel="ViewButtons">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r5o-pw-wXD" userLabel="ViewButtons">
                                 <rect key="frame" x="8" y="421" width="584" height="171"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="rSx-Dg-gpT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Result..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="rSx-Dg-gpT">
                                         <rect key="frame" x="10" y="8" width="564" height="87"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjp-LS-MDu">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjp-LS-MDu">
                                         <rect key="frame" x="10" y="111" width="564" height="44"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERs-bt-x2s">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERs-bt-x2s">
                                                 <rect key="frame" x="282" y="0.0" width="282" height="44"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -1049,7 +1137,7 @@
                                                     <action selector="touchEndBtn:" destination="flS-j6-GXG" eventType="touchUpInside" id="URB-Yk-JRh"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="NmZ-hO-APa">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="NmZ-hO-APa">
                                                 <rect key="frame" x="0.0" y="0.0" width="282" height="44"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -1120,19 +1208,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YEv-MQ-LmG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2342" y="-603"/>
+            <point key="canvasLocation" x="2160" y="-643"/>
         </scene>
         <!--Table View Controller-danger-->
         <scene sceneID="04T-Hh-7RZ">
             <objects>
                 <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="ovH-zb-1Us" userLabel="Table View Controller-danger" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ywt-ET-gZh">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle=" " id="bk3-eI-QLR">
+                            <tableViewSection id="bk3-eI-QLR">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="Gcb-A0-Cqd">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -1185,6 +1273,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="1gU-dq-MOm" secondAttribute="centerY" id="pSG-8H-ZHR"/>
                                                 <constraint firstItem="Cdh-Oc-Y2K" firstAttribute="leading" secondItem="1gU-dq-MOm" secondAttribute="trailing" constant="19" id="wAc-Ea-1jw"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="891-pM-acK"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="mUD-lu-7ki">
@@ -1217,6 +1310,11 @@
                                                 <constraint firstItem="517-72-Dc2" firstAttribute="top" secondItem="xdX-Nw-RyF" secondAttribute="top" constant="18" id="bO9-EE-MRE"/>
                                                 <constraint firstItem="JrC-7H-Tg6" firstAttribute="top" secondItem="xdX-Nw-RyF" secondAttribute="top" constant="12" id="zh8-6s-qjn"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="NSi-iO-wW3"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="d2f-lD-qWU">
@@ -1250,6 +1348,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="V0p-MN-pRt" secondAttribute="centerY" id="oU8-Qb-VuG"/>
                                                 <constraint firstItem="ley-TW-pJ7" firstAttribute="top" secondItem="AKm-ns-e22" secondAttribute="top" constant="18" id="sk1-UK-Z1c"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="55G-82-w30"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="moJ-jU-0e7">
@@ -1283,6 +1386,11 @@
                                                 <constraint firstItem="smm-bW-i8W" firstAttribute="top" secondItem="uEW-O9-kRs" secondAttribute="top" constant="18" id="esK-BA-ejB"/>
                                                 <constraint firstAttribute="bottom" secondItem="smm-bW-i8W" secondAttribute="bottom" constant="18" id="poE-Ta-rW4"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="poE-Ta-rW4"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Y9q-6r-exo">
@@ -1316,6 +1424,11 @@
                                                 <constraint firstItem="NtT-br-8Ex" firstAttribute="leading" secondItem="gkd-QT-A0a" secondAttribute="trailing" constant="18" id="wG8-Sj-cHS"/>
                                                 <constraint firstAttribute="bottom" secondItem="NtT-br-8Ex" secondAttribute="bottom" constant="12" id="yLl-K1-ikc"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="Q9M-1M-r8t"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="FLF-iQ-uid">
@@ -1348,6 +1461,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="Slh-ha-m5d" secondAttribute="bottom" constant="18" id="tSa-sH-maS"/>
                                                 <constraint firstAttribute="trailing" secondItem="veX-pr-3j7" secondAttribute="trailing" constant="12" id="u70-YS-xoy"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="tSa-sH-maS"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="beZ-ZK-hfj">
@@ -1380,6 +1498,11 @@
                                                 <constraint firstItem="uBf-Bh-SNI" firstAttribute="leading" secondItem="ulZ-fY-MNj" secondAttribute="trailing" constant="18" id="tSo-Sq-hdw"/>
                                                 <constraint firstAttribute="centerY" secondItem="ulZ-fY-MNj" secondAttribute="centerY" id="wT6-bG-IeY"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="2YO-hL-M1d"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="qH6-Ck-9IX">
@@ -1412,6 +1535,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="20D-Db-OOQ" secondAttribute="centerY" id="ocU-G2-vW2"/>
                                                 <constraint firstItem="8jV-j2-6Eg" firstAttribute="leading" secondItem="20D-Db-OOQ" secondAttribute="trailing" constant="18" id="s23-k6-Uw1"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="4Av-La-bTO"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="jCj-uo-kGB">
@@ -1444,6 +1572,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="PtA-tA-35k" secondAttribute="centerY" id="gct-lF-ybL"/>
                                                 <constraint firstItem="PtA-tA-35k" firstAttribute="leading" secondItem="mez-He-e9u" secondAttribute="leading" constant="18" id="itf-yc-p3V"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="1Zh-FS-QYK"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="RLb-lr-vMq">
@@ -1477,6 +1610,11 @@
                                                 <constraint firstItem="tRY-j1-VXt" firstAttribute="top" secondItem="lq1-iN-6uo" secondAttribute="top" constant="18" id="fXq-j8-1yK"/>
                                                 <constraint firstItem="Mrf-Iw-ne1" firstAttribute="leading" secondItem="tRY-j1-VXt" secondAttribute="trailing" constant="18" id="hu0-RX-Nzs"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="XgW-2q-qqz"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="c95-SM-Tcd">
@@ -1510,6 +1648,11 @@
                                                 <constraint firstItem="2Up-JA-ItA" firstAttribute="leading" secondItem="FZq-22-8Yw" secondAttribute="trailing" constant="18" id="cPL-hh-VQY"/>
                                                 <constraint firstAttribute="centerY" secondItem="FZq-22-8Yw" secondAttribute="centerY" id="jFo-hO-XOz"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="3mZ-1P-2Aa"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="VZf-cg-7yZ">
@@ -1542,6 +1685,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="plR-fP-MAq" secondAttribute="bottom" constant="18" id="mMD-RM-LGQ"/>
                                                 <constraint firstItem="plR-fP-MAq" firstAttribute="leading" secondItem="cid-14-2hU" secondAttribute="leading" constant="18" id="qY6-Bc-y3H"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="mMD-RM-LGQ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Slw-lG-mpS">
@@ -1574,6 +1722,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="aht-oz-LJ0" secondAttribute="centerY" id="pbK-J7-RaM"/>
                                                 <constraint firstItem="Mv5-E7-z4i" firstAttribute="leading" secondItem="fSt-AO-Njj" secondAttribute="leading" constant="18" id="re4-Tb-i62"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="e6q-Xo-niV"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="BFr-BC-mjC">
@@ -1607,6 +1760,11 @@
                                                 <constraint firstItem="a9y-OW-6HY" firstAttribute="leading" secondItem="fSk-qd-nVA" secondAttribute="leading" constant="18" id="pPZ-lm-D1P"/>
                                                 <constraint firstAttribute="centerY" secondItem="2pX-R5-yEl" secondAttribute="centerY" id="wew-VX-zlu"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="cyE-V8-Fpz"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="TZA-UX-WFN">
@@ -1639,6 +1797,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="m8z-XR-H35" secondAttribute="trailing" constant="12" id="stZ-uE-W3i"/>
                                                 <constraint firstAttribute="centerY" secondItem="m8z-XR-H35" secondAttribute="centerY" id="zXG-w2-jij"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="2qV-gW-83N"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="TyZ-lB-3jg">
@@ -1672,6 +1835,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="AKU-Ol-oMo" secondAttribute="bottom" constant="18" id="smS-KG-Od4"/>
                                                 <constraint firstItem="g38-xo-007" firstAttribute="top" secondItem="56q-ru-wVn" secondAttribute="top" constant="12" id="yUN-jx-mG0"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="smS-KG-Od4"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="ssq-Jx-2ek">
@@ -1705,6 +1873,11 @@
                                                 <constraint firstItem="Zto-dc-Y3d" firstAttribute="top" secondItem="IsM-Nh-FN8" secondAttribute="top" constant="12" id="v86-Ln-0mK"/>
                                                 <constraint firstAttribute="trailing" secondItem="Zto-dc-Y3d" secondAttribute="trailing" constant="12" id="zvZ-0Y-iWv"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="36e-Cz-7Y6"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="uzC-0S-V4a">
@@ -1738,6 +1911,11 @@
                                                 <constraint firstItem="Eu2-1T-mkm" firstAttribute="leading" secondItem="hBG-vI-3c7" secondAttribute="leading" constant="18" id="jtv-xT-Yh7"/>
                                                 <constraint firstAttribute="bottom" secondItem="Eu2-1T-mkm" secondAttribute="bottom" constant="18" id="lKz-OQ-pXz"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="lKz-OQ-pXz"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="r0A-J9-NUi">
@@ -1771,6 +1949,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="hi7-6g-y16" secondAttribute="bottom" constant="18" id="rcF-rI-92a"/>
                                                 <constraint firstItem="n9s-NT-z2P" firstAttribute="top" secondItem="Yy8-Xt-4CL" secondAttribute="top" constant="12" id="tAk-Hd-nWR"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="rcF-rI-92a"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="yPn-H5-CI6">
@@ -1803,6 +1986,11 @@
                                                 <constraint firstItem="8SW-6K-7JA" firstAttribute="leading" secondItem="Ene-hb-BjH" secondAttribute="leading" constant="18" id="oVn-8x-DI8"/>
                                                 <constraint firstAttribute="centerY" secondItem="8SW-6K-7JA" secondAttribute="centerY" id="vOS-4a-dPu"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="cuI-Is-0LF"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="c6o-rG-Ncq">
@@ -1835,9 +2023,14 @@
                                                 <constraint firstItem="49v-c8-t6M" firstAttribute="top" secondItem="6zE-qk-Gc8" secondAttribute="top" constant="12" id="uh9-oh-Q8H"/>
                                                 <constraint firstAttribute="trailing" secondItem="49v-c8-t6M" secondAttribute="trailing" constant="12" id="vqB-YR-nsX"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="D49-bt-PQ3"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="custom" customClass="SRCustomSegue" id="KQm-Ug-rd7"/>
+                                            <segue destination="u2H-8Y-G3I" kind="show" id="KQm-Ug-rd7"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1861,12 +2054,12 @@
             <objects>
                 <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="GNe-0l-fHg" userLabel="Table View Controller-travaux" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="oq8-Ud-Gdt">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle=" " id="UdQ-wn-O4u">
+                            <tableViewSection id="UdQ-wn-O4u">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="1cC-0C-nVT">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -1919,6 +2112,11 @@
                                                 <constraint firstItem="o5j-c1-aJe" firstAttribute="leading" secondItem="DSR-TU-eLP" secondAttribute="leading" constant="18" id="kTH-SM-QIO"/>
                                                 <constraint firstAttribute="centerY" secondItem="EnW-pv-NTq" secondAttribute="centerY" id="pCZ-1O-0fJ"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="HEz-I5-iFt"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="jse-rc-VBP">
@@ -1952,6 +2150,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="8Eg-dZ-y2Z" secondAttribute="centerY" id="mQi-rV-qhO"/>
                                                 <constraint firstAttribute="centerY" secondItem="TTa-So-JVJ" secondAttribute="centerY" id="uoa-NL-eNA"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="XhQ-ml-nxk"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="kpe-NJ-19A">
@@ -1984,6 +2187,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="fu6-BK-yRI" secondAttribute="bottom" constant="12" id="z6U-oK-CJn"/>
                                                 <constraint firstItem="fu6-BK-yRI" firstAttribute="leading" secondItem="4Jq-b0-JRL" secondAttribute="trailing" constant="18" id="z9t-pF-NFz"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="AiX-fD-fkD"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="M0V-PR-Crb">
@@ -2016,6 +2224,11 @@
                                                 <constraint firstItem="6ma-YW-WNm" firstAttribute="leading" secondItem="IMh-w9-QD6" secondAttribute="trailing" constant="18" id="qS8-q9-pq9"/>
                                                 <constraint firstItem="6ma-YW-WNm" firstAttribute="top" secondItem="SaC-xZ-iHQ" secondAttribute="top" constant="12" id="ujA-oZ-wcf"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="JBI-D2-cTh"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="2X0-7h-wtf">
@@ -2049,6 +2262,11 @@
                                                 <constraint firstItem="qk6-M3-vjT" firstAttribute="top" secondItem="2b8-2r-Fn8" secondAttribute="top" constant="12" id="rYE-YK-Iph"/>
                                                 <constraint firstAttribute="bottom" secondItem="qk6-M3-vjT" secondAttribute="bottom" constant="12" id="zkT-ZW-PcO"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="hE7-d6-QrB"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="bHi-eQ-W9J">
@@ -2082,6 +2300,11 @@
                                                 <constraint firstItem="170-YQ-dd2" firstAttribute="top" secondItem="Dgc-FP-wbK" secondAttribute="top" constant="12" id="de9-2t-YJb"/>
                                                 <constraint firstItem="xHT-BD-ws6" firstAttribute="leading" secondItem="Dgc-FP-wbK" secondAttribute="leading" constant="18" id="fPm-ko-1zG"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="Cer-ad-b0a"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="hKS-aD-Mus">
@@ -2114,6 +2337,11 @@
                                                 <constraint firstItem="Czf-2f-iWw" firstAttribute="leading" secondItem="HaS-mt-Ww8" secondAttribute="trailing" constant="18" id="Zc2-U3-xBE"/>
                                                 <constraint firstAttribute="trailing" secondItem="Czf-2f-iWw" secondAttribute="trailing" constant="12" id="nMD-jW-Kak"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="3y0-d3-MPP"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="X30-VX-HMM">
@@ -2146,6 +2374,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="JIx-88-nOA" secondAttribute="centerY" id="tBJ-hX-68I"/>
                                                 <constraint firstAttribute="centerY" secondItem="PKR-qd-y2m" secondAttribute="centerY" id="v9F-VL-vxc"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="oXb-oP-xoF"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="ljk-pD-oPT">
@@ -2178,6 +2411,11 @@
                                                 <constraint firstItem="PLE-8P-fti" firstAttribute="top" secondItem="WPc-1g-ZdK" secondAttribute="top" constant="18" id="XgW-mC-hgA"/>
                                                 <constraint firstAttribute="centerY" secondItem="NbP-cJ-Loe" secondAttribute="centerY" id="lOd-rU-PdW"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="488-5a-zIL"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="xS9-io-kH8">
@@ -2210,6 +2448,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="RFd-Y1-yxs" secondAttribute="trailing" constant="12" id="n9j-R0-Hce"/>
                                                 <constraint firstItem="0MT-cm-E97" firstAttribute="leading" secondItem="K9e-ld-AJ9" secondAttribute="leading" constant="18" id="u4F-Sg-WCh"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="JC4-yQ-V83"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Bt5-H9-bDc">
@@ -2243,6 +2486,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="aKr-GO-IDL" secondAttribute="centerY" id="dta-Pz-kI3"/>
                                                 <constraint firstAttribute="bottom" secondItem="aKr-GO-IDL" secondAttribute="bottom" constant="12" id="efm-D3-Z98"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="VDJ-EG-dnN"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="zz7-9Y-zgg">
@@ -2276,6 +2524,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="qH2-LW-vvG" secondAttribute="trailing" constant="12" id="htf-CS-Uyc"/>
                                                 <constraint firstAttribute="centerY" secondItem="qH2-LW-vvG" secondAttribute="centerY" id="juE-g4-hQQ"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="eUC-ap-hGV"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="vMe-k8-869">
@@ -2309,6 +2562,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="lQb-Hh-1Ej" secondAttribute="bottom" constant="12" id="sVV-cv-IgQ"/>
                                                 <constraint firstAttribute="bottom" secondItem="L3G-fl-21C" secondAttribute="bottom" constant="18" id="tQN-CE-D6N"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="tQN-CE-D6N"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="hGA-JD-ueR">
@@ -2341,6 +2599,11 @@
                                                 <constraint firstItem="Csq-bW-P4S" firstAttribute="top" secondItem="iTU-mW-acK" secondAttribute="top" constant="12" id="oF2-1L-hUz"/>
                                                 <constraint firstAttribute="bottom" secondItem="Csq-bW-P4S" secondAttribute="bottom" constant="12" id="uUl-Tu-Tbz"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="UAF-XK-mXQ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="6Ri-ad-7Ce">
@@ -2374,6 +2637,11 @@
                                                 <constraint firstItem="BAF-t0-zEI" firstAttribute="leading" secondItem="DFU-a5-ae6" secondAttribute="leading" constant="18" id="l5Y-rV-lrA"/>
                                                 <constraint firstItem="7Nb-tT-Qxv" firstAttribute="top" secondItem="DFU-a5-ae6" secondAttribute="top" constant="12" id="sXo-bc-BPx"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="0cb-s5-4KZ"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="mJ6-vm-bXU">
@@ -2406,9 +2674,14 @@
                                                 <constraint firstAttribute="centerY" secondItem="BWE-U2-Fuq" secondAttribute="centerY" id="pLD-mO-De0"/>
                                                 <constraint firstAttribute="trailing" secondItem="lAI-tH-wID" secondAttribute="trailing" constant="12" id="w5B-TL-e5w"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="XeB-tE-2He"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="custom" customClass="SRCustomSegue" id="6dA-p9-erH"/>
+                                            <segue destination="u2H-8Y-G3I" kind="show" id="6dA-p9-erH"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -2432,12 +2705,12 @@
             <objects>
                 <tableViewController extendedLayoutIncludesOpaqueBars="YES" id="Jbk-Qp-9PC" userLabel="Table View Controller-indication" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="WzJ-mf-ZAa">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <sections>
-                            <tableViewSection headerTitle=" " id="7T4-bD-bgq">
+                            <tableViewSection id="7T4-bD-bgq">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="WeT-Un-BA4">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -2489,6 +2762,11 @@
                                                 <constraint firstItem="aAW-t4-ezV" firstAttribute="top" secondItem="o0C-jU-zf9" secondAttribute="top" constant="18" id="uTp-f2-JZ2"/>
                                                 <constraint firstAttribute="bottom" secondItem="aAW-t4-ezV" secondAttribute="bottom" constant="19" id="wOH-vf-8iG"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="wOH-vf-8iG"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="D1A-II-Mns">
@@ -2521,6 +2799,11 @@
                                                 <constraint firstItem="dOU-hQ-mJf" firstAttribute="leading" secondItem="279-ss-0eg" secondAttribute="trailing" constant="18" id="kMp-GZ-54O"/>
                                                 <constraint firstAttribute="bottom" secondItem="279-ss-0eg" secondAttribute="bottom" constant="18" id="lWi-en-6KH"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="lWi-en-6KH"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="ca3-IM-FKf">
@@ -2553,6 +2836,11 @@
                                                 <constraint firstAttribute="bottom" secondItem="7KP-br-lGt" secondAttribute="bottom" constant="18" id="ndd-1N-Ef0"/>
                                                 <constraint firstItem="7KP-br-lGt" firstAttribute="top" secondItem="HAi-p5-wgH" secondAttribute="top" constant="18" id="oV3-he-iZY"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="ndd-1N-Ef0"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="yzl-pL-QBm">
@@ -2585,6 +2873,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="vws-k6-Dbg" secondAttribute="trailing" constant="12" id="vZu-ds-Hre"/>
                                                 <constraint firstAttribute="bottom" secondItem="Al2-rc-s2R" secondAttribute="bottom" constant="18" id="vaF-jD-TNg"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="vaF-jD-TNg"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="JbO-d2-tmP">
@@ -2617,6 +2910,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="ajW-YT-PC8" secondAttribute="centerY" id="n2Z-kd-bse"/>
                                                 <constraint firstItem="ajW-YT-PC8" firstAttribute="leading" secondItem="TJS-ob-Uur" secondAttribute="trailing" constant="18" id="uj2-nH-PlB"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="EWk-YF-w2c"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="nhg-Cy-onn">
@@ -2650,6 +2948,11 @@
                                                 <constraint firstAttribute="centerY" secondItem="f7U-WS-9Bq" secondAttribute="centerY" id="l21-wQ-LT0"/>
                                                 <constraint firstAttribute="bottom" secondItem="Fok-PL-hPO" secondAttribute="bottom" constant="12" id="lYS-xu-2Kq"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="S7d-B3-79D"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="0wA-I5-P0v">
@@ -2683,6 +2986,11 @@
                                                 <constraint firstItem="82M-ea-jjk" firstAttribute="top" secondItem="4TK-0s-WlJ" secondAttribute="top" constant="12" id="sac-qp-BBI"/>
                                                 <constraint firstAttribute="bottom" secondItem="k70-1z-adw" secondAttribute="bottom" constant="18" id="zIk-Lb-bRw"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="zIk-Lb-bRw"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="ET2-Zn-4Z1">
@@ -2714,6 +3022,11 @@
                                                 <constraint firstItem="UNq-Bi-v2P" firstAttribute="top" secondItem="jrb-h4-6wQ" secondAttribute="top" constant="18" id="kNc-tF-seV"/>
                                                 <constraint firstAttribute="bottom" secondItem="UNq-Bi-v2P" secondAttribute="bottom" constant="18" id="s1K-zw-HL4"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="s1K-zw-HL4"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Z1W-os-4xa">
@@ -2746,6 +3059,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="inA-rq-uJY" secondAttribute="trailing" constant="12" id="nxf-aT-EmL"/>
                                                 <constraint firstAttribute="centerY" secondItem="axw-fW-2BO" secondAttribute="centerY" id="t5G-Xa-ShV"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="fgt-Yg-vV8"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Az2-cw-fUh">
@@ -2779,6 +3097,11 @@
                                                 <constraint firstAttribute="trailing" secondItem="UoL-4H-URD" secondAttribute="trailing" constant="12" id="f3D-b8-RkB"/>
                                                 <constraint firstItem="nIZ-xK-5eM" firstAttribute="leading" secondItem="C8m-7K-ZxE" secondAttribute="leading" constant="18" id="x7J-XT-HDV"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="LbG-bn-a3n"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="u3z-IB-gJY">
@@ -2811,9 +3134,14 @@
                                                 <constraint firstAttribute="bottom" secondItem="qR4-LS-BUA" secondAttribute="bottom" constant="18" id="hU0-pe-8uN"/>
                                                 <constraint firstItem="TRw-jd-qnP" firstAttribute="top" secondItem="9hA-4G-Dbv" secondAttribute="top" constant="12" id="oFi-qa-Zb0"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="hU0-pe-8uN"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="custom" trigger="accessoryAction" customClass="SRCustomSegue" id="4A4-eM-8fx"/>
+                                            <segue destination="u2H-8Y-G3I" kind="show" trigger="accessoryAction" id="4A4-eM-8fx"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -2829,6 +3157,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F7V-JL-j5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2353" y="284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FG8-lR-uyg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ext-G9-vfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController storyboardIdentifier="navVC" automaticallyAdjustsScrollViewInsets="NO" id="u2H-8Y-G3I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" contentMode="scaleToFill" id="OME-4e-rvG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Sh7-bb-kGF"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="649" y="-643"/>
         </scene>
     </scenes>
     <resources>
@@ -2900,6 +3247,6 @@
         <image name="btn-precedent" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vAk-tz-GWG"/>
+        <segue reference="4A4-eM-8fx"/>
     </inferredMetricsTieBreakers>
 </document>

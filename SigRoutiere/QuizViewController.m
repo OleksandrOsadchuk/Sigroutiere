@@ -65,6 +65,11 @@ char posLetter;
     // Do any additional setup after loading the view.
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES];   //it hides
+}
+
 -(void)showNewQuestion
 {
     [myQuiz makeQuestion];
@@ -107,6 +112,9 @@ char posLetter;
     // Dispose of any resources that can be recreated.
 }
 
+
+
+
 /*
 #pragma mark - Navigation
 
@@ -121,7 +129,7 @@ char posLetter;
     // the user clicked OK
     if (buttonIndex == 0) {
         // do something here...
-        UIViewController *mainVC = [self.storyboard instantiateViewControllerWithIdentifier:@"mainVC"];
+        UIViewController *mainVC = [self.storyboard instantiateViewControllerWithIdentifier:@"navVC"];
         [self presentViewController:mainVC animated:YES completion:nil];
     }
 }
