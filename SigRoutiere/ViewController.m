@@ -30,8 +30,10 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.navigationItem.title = self.restorationIdentifier;
     
     for(UIButton *btn in self.view.subviews) {
         if ([btn isKindOfClass:[UIButton class]]) {

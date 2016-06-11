@@ -16,6 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    UIImage *navBackgroundImage = [UIImage imageNamed:@"btn-precedent"];
+    UIImage *butImg = [UIImage imageNamed:@"btn-precedent"];
+    //[[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
+  //  [[UINavigationBar appearance] setBack]
+    
+    return YES;
+    
     // Override point for customization after application launch.
     return YES;
 }

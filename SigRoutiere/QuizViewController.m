@@ -12,9 +12,6 @@
 
 
 @interface QuizViewController ()
-
-
-
 @property (nonatomic, retain) UIButton *btnTemp;
 
 @end
@@ -24,9 +21,10 @@
 
 char posLetter;
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.title = self.restorationIdentifier;
     
     //colors makeup
     
@@ -65,10 +63,12 @@ char posLetter;
     // Do any additional setup after loading the view.
 }
 
+/*
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES];   //it hides
 }
+ */
 
 -(void)showNewQuestion
 {
