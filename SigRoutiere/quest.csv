@@ -1,0 +1,71 @@
+Auto-05:Identification de l'autoroute.
+Auto-30:Identification de l'autoroute.
+D-100-10-D:Signal avancé de direction des voies.
+D-100-2-D:Signal avancé de direction des voies.
+D-110-1-D:Courbe prononcée vers la droite.
+D-120-15:Vitesse recommandée dans une sortie.
+D-140-2-G:Voies parallèles.
+D-180-1:Passage à niveau traversant un chemin.
+D-20:Signal avancé de cédez le passage.
+D-220-1-G:Perte de voie par la gauche.
+D-255:Intersection d'une voie réservée.
+D-270-1-D:Signal avancé d’une zone scolaire.
+D-280:Fin d’une voie ou d’un chemin.
+D-290-G:Contourner un obstacle par la gauche.
+D-301-1:Chevron d'alignement - virage prononcée.
+D-301-2:Chevron d'alignement-carrefour giratoire.
+D-361:Présence d’un dos d’âne.
+D-40-3:Nouvelle signalisation, les panneaux «Arrêt».
+D-430-11:Signal avancé de chaussée désignée.
+D-460:Risque d'enlisement.
+D-60-1:Préparez-vous à arrêter (feux de circulation).
+D-70-30:Signal avancé de limite de vitesse.
+D-80-1:Signal avancé de circulation à double sens.
+D-90-1:Approche d'une chaussée séparée.
+DIV-10:Poste de la Sûreté du Québec.
+DIV-31:Direction et nom de la destination.
+I-120-1:Identification de route numérotée.
+I-20-1:Début de la bretelle de sortie.
+I-270-2:Présence d’un poste de police.
+I-280-1:Présence d’un hôpital.
+I-285:Stationnement réservée aux situations d’urgence.
+I-295-1:Présence d’une borne d’incendie.
+I-413-1:Surveillance par un système photographique.
+I-520-4:Présence d’un centre Infotouriste.
+I-520-5:Bureau d’information touristique.
+P-10:Obligation d’arrêter à une intersection.
+P-100-10-G:Direction des voies.
+P-100-13:Voie adjacente à une voie alternée.
+P-110-3-D:Aller tout droit ou tourner à droite.
+P-110-5:Interdiction de faire demi-tour.
+P-120-1:Trajet obligatoire pour les camions.
+P-120-10-G:Trajet obligatoire pour piétons et vélos.
+P-120-4:Trajet obligatoire pour les matières dangereuses.
+P-130-1:Accès interdit aux camions.
+P-130-24:Livraison locale seulement.
+P-130-3:Accès interdit aux transporteurs de matières dangereuses.
+P-140-1:Interdiction de dépasser.
+P-150-1-D:Zones où le stationnement est interdit.
+P-160-3-G-D:Arrêt interdit à l'endroit.
+P-20-1:Obligation de céder le passage.
+P-270-2-D: Passage pour piétons.
+P-40:Entrée interdite.
+P-60-D:Emplacement d’une ligne d’arrêt.
+P-70-2-40:Limite de vitesse.
+P-80-1:Indication du sens unique.
+P-90-D:Obligation de contourner l'obstacle.
+T-10:Panneau du signaleur.
+T-100-1-D:Fusion de voies.      
+T-110-8-D:Déviation de voie.
+T-160-1:Travaux de marquage.
+T-170-4-D:Accès au chantier.
+T-20:Distance avant d’atteindre l’aire de travail.
+T-40:Fin d’une aire de travail.
+T-70-1-30:Limite de vitesse à proximité d’une aire de travail.
+T-75:Réglementation temporaire du stationnement.
+T-80-1:Endroit temporairement fermé à la circulation.
+T-85-7:Signal avancé d’un endroit fermé à la circulation.
+T-90-10-D:Direction de l'itinéraire de détour.
+T-D-100-6-D:Signal avancé de direction des voies.
+T-D-190-1:Signal avancé de limitation de hauteur.
+T-D-340:Approche d'une chaussée rainurée.

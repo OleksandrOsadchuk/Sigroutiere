@@ -18,28 +18,14 @@
     [super viewDidLoad];
     
     self.navigationItem.title = self.restorationIdentifier;
-   
-   
-    
+     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
      //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    /*   doesnt work! // will scroll
-     
-     int w = self.view.bounds.size.width;
-     int h = 100;
-   
-    UINavigationBar *navbar = [[UINavigationBar alloc]initWithFrame:CGRectMake(0, 0, w, h)];
-    //do something like background color, title, etc you self
-    navbar.backgroundColor = UIColor.blueColor;
-    
-    //[self.navigationController.view addSubview:navbar];
-  //  [self.view addSubview:navbar];   //will scroll
-  //  [self.tabBarController setTitle:@"tabBarFromSelf"]; //??
-    */
+
 }
 
 - (void)didReceiveMemoryWarning {

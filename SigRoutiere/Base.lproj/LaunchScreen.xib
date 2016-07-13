@@ -12,27 +12,26 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGNALISATION
- ROUTIÈRE" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="SIGNALISATION  ROUTIÈRE" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
                     <rect key="frame" x="106" y="16" width="269" height="86"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Un petit guide" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-Re-pcl">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Un petit guide" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-Re-pcl">
                     <rect key="frame" x="183" y="118" width="114" height="22"/>
                     <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="SignRout-launchScr" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-5y-0c3">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" image="SignRout-launchScr" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-5y-0c3">
                     <rect key="frame" x="96" y="156" width="288" height="288"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="dSD-5y-0c3" secondAttribute="height" multiplier="1:1" id="bjN-te-dxo"/>
                         <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="400" id="cua-vS-LBn"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Oleksandr O.  All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 Oleksandr O.  All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
                     <rect key="frame" x="36" y="499" width="408" height="36"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -48,13 +47,13 @@
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="8" id="EXy-kJ-wDg"/>
                 <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="19" id="FHh-xb-Dqe"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" priority="750" constant="8" id="Hwp-Qg-BhP"/>
-                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="16" id="KGk-3o-l0M"/>
+                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kId-c2-rCX" secondAttribute="bottom" priority="900" constant="16" id="KGk-3o-l0M"/>
                 <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="dSD-5y-0c3" secondAttribute="bottom" priority="750" constant="55" id="Ldr-2O-J6i"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="RjP-IM-boe"/>
                 <constraint firstItem="6lS-Re-pcl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="S17-95-Lno"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="65" id="See-ly-dtG"/>
-                <constraint firstItem="dSD-5y-0c3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6lS-Re-pcl" secondAttribute="bottom" constant="16" id="WcG-hI-YpW"/>
+                <constraint firstItem="dSD-5y-0c3" firstAttribute="top" secondItem="6lS-Re-pcl" secondAttribute="bottom" constant="16" id="WcG-hI-YpW"/>
                 <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="aPn-lf-Rev"/>
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="lhP-nL-rZS"/>
@@ -84,6 +83,6 @@
         </view>
     </objects>
     <resources>
-        <image name="SignRout-launchScr" width="256" height="256"/>
+        <image name="SignRout-launchScr" width="128" height="128"/>
     </resources>
 </document>

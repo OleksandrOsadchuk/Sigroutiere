@@ -17,10 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    UIImage *navBackgroundImage = [UIImage imageNamed:@"btn-precedent"];
-    UIImage *butImg = [UIImage imageNamed:@"btn-precedent"];
+    //UIImage *navBackgroundImage = [UIImage imageNamed:@"btn-precedent"];
+    //UIImage *butImg = [UIImage imageNamed:@"btn-precedent"];
     //[[UINavigationBar appearance] setBackgroundImage:navBackgroundImage forBarMetrics:UIBarMetricsDefault];
-  //  [[UINavigationBar appearance] setBack]
+    [[UINavigationBar appearance]setBarTintColor:[UIColor colorWithWhite:0.9 alpha:1.0]];
+    //[[UINavigationBar appearance] setBack]
     
     return YES;
     

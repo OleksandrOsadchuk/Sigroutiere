@@ -47,9 +47,6 @@
         btn.backgroundColor = c040;
         btn.clipsToBounds = YES;
         
-        //doesn't work
-        // btn.titleLabel.textColor = [UIColor whiteColor];
-         
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         btn.titleLabel.font = [UIFont systemFontOfSize:40];
         btn.titleLabel.adjustsFontSizeToFitWidth = true;
