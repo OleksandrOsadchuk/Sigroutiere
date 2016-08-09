@@ -104,14 +104,14 @@
                                     <segue destination="flS-j6-GXG" kind="show" id="LQS-5M-NKJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="du Québec." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-dE-9OL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Québec." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-dE-9OL">
                                 <rect key="frame" x="16" y="106" width="568" height="63"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="0.12941176470588237" green="0.40000000000000002" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -1390,8 +1390,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaJ-L9-9Cq" userLabel="PanneauView">
                                 <rect key="frame" x="16" y="72" width="568" height="260"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" misplaced="YES" image="Auto-05" translatesAutoresizingMaskIntoConstraints="NO" id="he2-zb-KV8">
-                                        <rect key="frame" x="199" y="8" width="170" height="169"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="Auto-05" translatesAutoresizingMaskIntoConstraints="NO" id="he2-zb-KV8">
+                                        <rect key="frame" x="200" y="8" width="169" height="169"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="he2-zb-KV8" secondAttribute="height" multiplier="1:1" id="FzT-Yv-gzg"/>
                                         </constraints>
