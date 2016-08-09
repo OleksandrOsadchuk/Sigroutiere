@@ -11,7 +11,7 @@
 @interface Quizz : NSObject
 
 @property (strong,nonatomic) NSString *questionText, *offerGood, *offerNot1, *offerNot2, *imgShow, *choosen;
-@property (strong,nonatomic) NSMutableArray *questions,*answers, *images;
+@property (strong,nonatomic) NSMutableArray *questions,*answers, *images, *last3idx;
 @property  int score, percentage;
 @property int questionNumber;
 @property BOOL isCorrect;

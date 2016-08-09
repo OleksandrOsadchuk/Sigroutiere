@@ -12,27 +12,32 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="SIGNALISATION  ROUTIÈRE" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="106" y="16" width="269" height="86"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGNALISATION ROUTIÈRE" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="32" y="32" width="416" height="36"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="44"/>
+                    </variation>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Un petit guide" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-Re-pcl">
-                    <rect key="frame" x="183" y="118" width="114" height="22"/>
-                    <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="du Québec" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="6lS-Re-pcl">
+                    <rect key="frame" x="32" y="100" width="416" height="36"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="40"/>
+                    </variation>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" misplaced="YES" image="SignRout-launchScr" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-5y-0c3">
-                    <rect key="frame" x="96" y="156" width="288" height="288"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="SignRout-launchScr" translatesAutoresizingMaskIntoConstraints="NO" id="dSD-5y-0c3">
+                    <rect key="frame" x="84" y="168" width="312" height="312"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="dSD-5y-0c3" secondAttribute="height" multiplier="1:1" id="bjN-te-dxo"/>
-                        <constraint firstAttribute="width" relation="lessThanOrEqual" priority="750" constant="400" id="cua-vS-LBn"/>
+                        <constraint firstAttribute="width" secondItem="dSD-5y-0c3" secondAttribute="height" multiplier="1:1" id="Vgw-pF-MF1"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  Copyright (c) 2015 Oleksandr O.  All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="36" y="499" width="408" height="36"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Oleksandr O.  All rights reserved." textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="12" y="539" width="456" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -40,49 +45,57 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kId-c2-rCX" secondAttribute="trailing" priority="750" constant="8" id="3KJ-Xk-kdz"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="7IE-3s-3a7"/>
-                <constraint firstAttribute="centerX" secondItem="6lS-Re-pcl" secondAttribute="centerX" id="8yC-Ff-Tek"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="8" id="EXy-kJ-wDg"/>
-                <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="19" id="FHh-xb-Dqe"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" priority="750" constant="8" id="Hwp-Qg-BhP"/>
-                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kId-c2-rCX" secondAttribute="bottom" priority="900" constant="16" id="KGk-3o-l0M"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
-                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="dSD-5y-0c3" secondAttribute="bottom" priority="750" constant="55" id="Ldr-2O-J6i"/>
-                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="RjP-IM-boe"/>
-                <constraint firstItem="6lS-Re-pcl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="S17-95-Lno"/>
-                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="65" id="See-ly-dtG"/>
-                <constraint firstItem="dSD-5y-0c3" firstAttribute="top" secondItem="6lS-Re-pcl" secondAttribute="bottom" constant="16" id="WcG-hI-YpW"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="aPn-lf-Rev"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
-                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="lhP-nL-rZS"/>
-                <constraint firstAttribute="centerX" secondItem="dSD-5y-0c3" secondAttribute="centerX" id="oec-oF-zcm"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="stn-3U-bsL"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="ula-QS-vNf"/>
-                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="17" id="wab-Qv-9fF"/>
-                <constraint firstAttribute="centerY" secondItem="6lS-Re-pcl" secondAttribute="centerY" constant="142" id="wcr-iZ-6rt"/>
-                <constraint firstAttribute="centerY" secondItem="dSD-5y-0c3" secondAttribute="centerY" id="y1v-KW-X58"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6lS-Re-pcl" secondAttribute="trailing" constant="16" id="zXi-nY-c1J"/>
+                <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="32" id="0ca-vJ-h4X"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="73H-P0-l90"/>
+                <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="64" id="7MG-dR-2yp"/>
+                <constraint firstItem="dSD-5y-0c3" firstAttribute="width" secondItem="6lS-Re-pcl" secondAttribute="width" multiplier="1:2" id="7et-xk-lmK"/>
+                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="64" id="CZy-QY-YlC"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="64" id="ODb-F2-o6n"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="40" id="QHM-JM-o7W"/>
+                <constraint firstAttribute="trailing" secondItem="6lS-Re-pcl" secondAttribute="trailing" constant="32" id="Qor-2j-syc"/>
+                <constraint firstItem="dSD-5y-0c3" firstAttribute="top" secondItem="6lS-Re-pcl" secondAttribute="bottom" constant="32" id="VQ0-ru-Fxj"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="YiO-Kf-n1u"/>
+                <constraint firstItem="6lS-Re-pcl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="afN-0l-GB0"/>
+                <constraint firstItem="6lS-Re-pcl" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="32" id="b0K-ON-YBb"/>
+                <constraint firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="12" id="bur-XE-g8a"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="32" id="eYw-1t-B8i"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="fjW-4I-DSX"/>
+                <constraint firstItem="dSD-5y-0c3" firstAttribute="top" secondItem="6lS-Re-pcl" secondAttribute="bottom" constant="64" id="l5I-6B-Osg"/>
+                <constraint firstAttribute="centerX" secondItem="dSD-5y-0c3" secondAttribute="centerX" id="pfY-pP-oeq"/>
+                <constraint firstItem="dSD-5y-0c3" firstAttribute="width" secondItem="6lS-Re-pcl" secondAttribute="width" multiplier="3:4" id="ssR-il-wNy"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="constraints">
-                    <exclude reference="5cJ-9S-tgC"/>
-                    <exclude reference="7IE-3s-3a7"/>
-                    <exclude reference="FHh-xb-Dqe"/>
-                    <exclude reference="Koa-jz-hwk"/>
-                    <exclude reference="fvb-Df-36g"/>
-                    <exclude reference="ula-QS-vNf"/>
-                    <exclude reference="wab-Qv-9fF"/>
-                    <exclude reference="wcr-iZ-6rt"/>
+                    <exclude reference="7MG-dR-2yp"/>
+                    <exclude reference="ODb-F2-o6n"/>
+                    <exclude reference="YiO-Kf-n1u"/>
+                    <exclude reference="CZy-QY-YlC"/>
+                    <exclude reference="7et-xk-lmK"/>
+                    <exclude reference="l5I-6B-Osg"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <exclude reference="0ca-vJ-h4X"/>
+                    <exclude reference="73H-P0-l90"/>
+                    <include reference="7MG-dR-2yp"/>
+                    <include reference="ODb-F2-o6n"/>
+                    <include reference="YiO-Kf-n1u"/>
+                    <exclude reference="eYw-1t-B8i"/>
+                    <include reference="CZy-QY-YlC"/>
+                    <exclude reference="b0K-ON-YBb"/>
+                    <include reference="7et-xk-lmK"/>
+                    <exclude reference="VQ0-ru-Fxj"/>
+                    <include reference="l5I-6B-Osg"/>
+                    <exclude reference="ssR-il-wNy"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="548" y="515"/>
         </view>
     </objects>
     <resources>
-        <image name="SignRout-launchScr" width="128" height="128"/>
+        <image name="SignRout-launchScr" width="500" height="500"/>
     </resources>
 </document>

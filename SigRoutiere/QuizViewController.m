@@ -18,7 +18,7 @@
 @end
 
 @implementation QuizViewController
-@synthesize imgDisplay, resultDisplay,scoreDisplay,aBtn,bBtn,cBtn, btnTemp, nextBtn, scoreLbl, rLbl;
+@synthesize imgDisplay, resultDisplay,scoreDisplay,aBtn,bBtn,cBtn, btnTemp, nextBtn, scoreLbl, rLbl, containerA, containerB,containerC;
 
 char posLetter;
 bool answered=NO;
@@ -77,14 +77,23 @@ bool answered=NO;
     for(UIButton *b in @[aBtn,bBtn,cBtn]) {
         if ([b isKindOfClass:[UIButton class]]) {
             b.layer.cornerRadius = 6.0f;
-            b.layer.borderWidth = 2.0f;
-            b.layer.borderColor = c040.CGColor;
-            b.backgroundColor = [UIColor clearColor];
-            b.clipsToBounds = YES;
+            //b.layer.borderWidth = 2.0f;
+            //b.layer.borderColor = c040.CGColor;
+            //[b setBackgroundColor:[UIColor clearColor]];
+            //b.clipsToBounds = YES;
             //[b setTitleColor:c040 forState: normal ];
        
         }
     }
+    for (UIView *v in @[containerA,containerB,containerC]){
+        v.layer.cornerRadius = 7.0f;
+        v.layer.borderWidth = 2.0f;
+        v.layer.borderColor = c040.CGColor;
+        v.clipsToBounds=YES;
+        //v.layer.backgroundColor = [UIColor clearColor].CGColor;
+    }
+    
+    [self resetBtnViews];
     
     nextBtn.layer.cornerRadius = 6.0f;
     nextBtn.layer.borderWidth = 2.0f;
@@ -98,6 +107,20 @@ bool answered=NO;
     scoreDisplay.backgroundColor = [UIColor whiteColor];
 }
 
+-(void)resetBtnViews{
+    
+    for(UIButton *b in @[aBtn,bBtn,cBtn]) {
+        if ([b isKindOfClass:[UIButton class]]) {
+            [b setBackgroundColor:[UIColor whiteColor]];
+            b.enabled=YES;
+        }
+    }
+    for (UIView *v in @[containerA,containerB,containerC]){
+        v.layer.backgroundColor = c040.CGColor;
+        v.alpha=1.0f;
+    }
+}
+
 -(void)doBtnFonts{
     
     for(UIButton *b in @[aBtn,bBtn,cBtn]) {
@@ -105,14 +128,10 @@ bool answered=NO;
             
             b.titleLabel.minimumScaleFactor=0.2f;
             b.titleLabel.adjustsFontSizeToFitWidth=YES	;
-            
-           // b.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
             b.titleLabel.numberOfLines=2;
-            [b layoutIfNeeded];
+            //[b layoutIfNeeded];
             
-            
-            
-            b.titleEdgeInsets = UIEdgeInsetsMake(2.0, 2.0, 2.0, 2.0);
+            b.titleEdgeInsets = UIEdgeInsetsMake(1.0, 1.0, 1.0, 1.0);
             UILabel *titleLabel = b.titleLabel;
             NSDictionary *views = NSDictionaryOfVariableBindings(titleLabel);
             [b addConstraints:[NSLayoutConstraint constraintsWithVisualFormat: @"V:|[titleLabel]|" options:kNilOptions metrics:nil views:views]];
@@ -124,7 +143,7 @@ bool answered=NO;
 -(void)refreshNavBar{
     
     if(myQuiz.questionNumber<=1) {
-        scoreLbl.layer.borderColor=c040.CGColor;
+        scoreLbl.layer.borderColor=[UIColor whiteColor].CGColor;
         scoreLbl.font=[UIFont systemFontOfSize:14.0];
     }
     scoreLbl.text = [NSString stringWithFormat:@"Score: %d/%d",myQuiz.score,myQuiz.questionNumber];
@@ -158,10 +177,13 @@ bool answered=NO;
 -(void)showNewQuestion{
     
     [myQuiz makeQuestion];
+    [self resetBtnViews];
     
-    aBtn.enabled = true; aBtn.alpha=1.0; aBtn.backgroundColor=[UIColor clearColor]; //aBtn.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
-    bBtn.enabled = true; bBtn.alpha=1.0; bBtn.backgroundColor=[UIColor clearColor];//bBtn.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
-    cBtn.enabled = true; cBtn.alpha=1.0; cBtn.backgroundColor=[UIColor clearColor];//cBtn.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
+//    aBtn.enabled = true; aBtn.alpha=1.0; aBtn.backgroundColor=[UIColor clearColor];
+//    bBtn.enabled = true; bBtn.alpha=1.0; bBtn.backgroundColor=[UIColor clearColor];
+//    cBtn.enabled = true; cBtn.alpha=1.0; cBtn.backgroundColor=[UIColor clearColor];
+    // <<< in (void)resetBtnViews >>>
+    
 
    
     //where put good offer
@@ -173,9 +195,9 @@ bool answered=NO;
     else if (pos==2)    { putA = myQuiz.offerNot1; putB = myQuiz.offerGood; putC = myQuiz.offerNot2; posLetter = 'B';}
     else                { putA = myQuiz.offerNot1; putB = myQuiz.offerNot2; putC = myQuiz.offerGood; posLetter = 'C';}
     
-    [aBtn setTitle:[NSString stringWithFormat: @" A. %@",putA] forState:UIControlStateNormal];
-    [bBtn setTitle:[NSString stringWithFormat: @" B. %@",putB] forState:UIControlStateNormal];
-    [cBtn setTitle:[NSString stringWithFormat: @" C. %@",putC] forState:UIControlStateNormal];
+    [aBtn setTitle:[NSString stringWithFormat: @"%@",putA] forState:UIControlStateNormal];
+    [bBtn setTitle:[NSString stringWithFormat: @"%@",putB] forState:UIControlStateNormal];
+    [cBtn setTitle:[NSString stringWithFormat: @"%@",putC] forState:UIControlStateNormal];
     
     [self doBtnFonts];
 
@@ -191,26 +213,32 @@ bool answered=NO;
     bBtn.enabled = false;
     cBtn.enabled = false;
     nextBtn.enabled = false;
+    self.nextBtn.alpha=0.50;
     
     
     myQuiz.choosen=sender.titleLabel.text;
     
     if([myQuiz checkAnswer]){
         [sender setBackgroundColor:[UIColor greenColor]];
-        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2]];
+        //[sender.superview setBackgroundColor:[UIColor greenColor]];
+        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1]];
         //[sender setBackgroundColor:[UIColor clearColor]];
         resultDisplay.text = @"Bonne réponse!";
     }else{
         [sender setBackgroundColor:[UIColor redColor]];
-        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2]];
+        //[sender.superview setBackgroundColor:[UIColor redColor]];
+        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1]];
         //[sender setBackgroundColor:[UIColor clearColor]];
-        resultDisplay.text = [NSString stringWithFormat: @"Incorrect! \n Bonne était: %c. %@",
+        resultDisplay.text = [NSString stringWithFormat: @"Incorrect! \n Bonne réponse: %c. %@",
                               posLetter,myQuiz.offerGood];
     }
     answered=YES;
-    aBtn.alpha=0.50;bBtn.alpha=0.50;cBtn.alpha=0.50;
+    //aBtn.alpha=0.50;bBtn.alpha=0.50;cBtn.alpha=0.50;
+    containerA.alpha=0.50;containerB.alpha=0.50;containerC.alpha=0.50;
+
     [self refreshNavBar];
     nextBtn.enabled=true;
+    self.nextBtn.alpha=1.0;
     
     //[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:2]];
 }
@@ -225,7 +253,9 @@ bool answered=NO;
 
 -(void)touchEndBtn:(id)sender {
     
-    NSString *message = [NSString stringWithFormat:@"Votre mark final: %d%%",myQuiz.percentage];
+    float percent = (myQuiz.questionNumber==0)?0:(myQuiz.score*100/myQuiz.questionNumber) ; //float
+    
+    NSString *message = [NSString stringWithFormat:@"Bonnes réponses: %d sur %d questions\n (%2.0f %%)",myQuiz.score, myQuiz.questionNumber, percent];
     UIAlertView *testEndAlert = [[UIAlertView alloc] initWithTitle:@"Finir ?"
                                                             message:message
                                                             delegate:self
@@ -246,11 +276,6 @@ bool answered=NO;
     }
 }
 
-/*
-- (IBAction)goToMainVC:(id)sender{
-    [self performSegueWithIdentifier:@"testToNav" sender:self]; // heretic action, navbar problems...
-} */
-
 //////////////////////////////////////////////////////////////
 
 - (void)didReceiveMemoryWarning {
@@ -258,21 +283,5 @@ bool answered=NO;
     // Dispose of any resources that can be recreated.
 }
 
-/*
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES];   //it hides
-}
- */
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

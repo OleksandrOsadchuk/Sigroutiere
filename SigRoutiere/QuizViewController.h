@@ -20,6 +20,13 @@
     Quizz *myQuiz;
     
 }
+@property (weak, nonatomic) IBOutlet UIView *containerB;
+@property (weak, nonatomic) IBOutlet UIView *containerA;
+@property (weak, nonatomic) IBOutlet UIView *containerC;
+
+
+
+
 @property (weak, nonatomic) IBOutlet UIImageView *imgDisplay;
 @property (weak, nonatomic) IBOutlet UILabel *resultDisplay;
 @property (weak, nonatomic) IBOutlet UILabel *scoreDisplay;

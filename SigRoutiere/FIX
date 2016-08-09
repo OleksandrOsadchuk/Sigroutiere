@@ -1,4 +1,7 @@
-1: test screen layout !!! (iphone)
-2: image sizes.
+1: test screen layout !!! (iphone)-(ipad)
+bug: 1corect / 50 skipped still gives mark of 5%
+bug: landskape 'suivant' buttton too short iphone
+
+2: image sizes. - 256x256 or 512x512
 3: check spelling all labels and buttons
 4: test ipad / iphone
