@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="SIGNALISATION ROUTIÈRE " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="b5U-MF-Qsj">
-                                <rect key="frame" x="16" y="34" width="568" height="62"/>
+                                <rect key="frame" x="16" y="34" width="568" height="65"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -30,7 +30,7 @@
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-tj-JAl">
-                                <rect key="frame" x="16" y="189" width="568" height="62"/>
+                                <rect key="frame" x="16" y="175" width="568" height="65"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-b8-Tts">
-                                <rect key="frame" x="16" y="271" width="568" height="62"/>
+                                <rect key="frame" x="16" y="260" width="568" height="65"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-wd-QZJ">
-                                <rect key="frame" x="16" y="353" width="568" height="62"/>
+                                <rect key="frame" x="16" y="345" width="568" height="65"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -75,7 +75,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-gm-7B4">
-                                <rect key="frame" x="16" y="435" width="568" height="63"/>
+                                <rect key="frame" x="16" y="430" width="568" height="65"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfu-Qc-8pS">
-                                <rect key="frame" x="16" y="518" width="568" height="62"/>
+                                <rect key="frame" x="16" y="515" width="568" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -104,16 +104,9 @@
                                     <segue destination="flS-j6-GXG" kind="show" id="LQS-5M-NKJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Québec." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-dE-9OL">
-                                <rect key="frame" x="16" y="106" width="568" height="63"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                                <color key="textColor" red="0.12941176470588237" green="0.40000000000000002" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
-                                </variation>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quebec-aqua-border-256" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-PM-6jA">
+                                <rect key="frame" x="44" y="107" width="512" height="33"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
@@ -123,41 +116,38 @@
                             <constraint firstItem="b5U-MF-Qsj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="4Iy-2s-GJb"/>
                             <constraint firstItem="b5U-MF-Qsj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="4xS-Sn-rfB"/>
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="top" secondItem="V3Z-tj-JAl" secondAttribute="bottom" constant="20" id="7EQ-Hs-f4d"/>
-                            <constraint firstItem="cHD-dE-9OL" firstAttribute="top" secondItem="b5U-MF-Qsj" secondAttribute="bottom" constant="10" id="7Oa-3h-gUy"/>
                             <constraint firstItem="eic-gm-7B4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="7TU-Xi-Ejv"/>
+                            <constraint firstItem="UIH-PM-6jA" firstAttribute="height" secondItem="b5U-MF-Qsj" secondAttribute="height" multiplier="1:2" id="9Td-5L-cmD"/>
                             <constraint firstAttribute="trailing" secondItem="eic-gm-7B4" secondAttribute="trailing" constant="100" id="AKC-KP-8fZ"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="e4T-wd-QZJ" secondAttribute="height" id="HxW-7Y-K6J"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="IUt-Ds-OjT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vfu-Qc-8pS" secondAttribute="bottom" constant="20" id="KNR-sc-py1"/>
                             <constraint firstAttribute="trailing" secondItem="h3s-b8-Tts" secondAttribute="trailing" constant="100" id="M16-NF-jwJ"/>
-                            <constraint firstAttribute="trailing" secondItem="cHD-dE-9OL" secondAttribute="trailing" constant="16" id="MFx-Fk-y27"/>
                             <constraint firstItem="Vfu-Qc-8pS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="MUb-gb-zEL"/>
                             <constraint firstAttribute="trailing" secondItem="eic-gm-7B4" secondAttribute="trailing" constant="16" id="Mbk-9h-IIp"/>
                             <constraint firstAttribute="trailing" secondItem="Vfu-Qc-8pS" secondAttribute="trailing" constant="100" id="NAZ-hV-opq"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="eic-gm-7B4" secondAttribute="height" id="NNQ-Sv-3VN"/>
                             <constraint firstAttribute="trailing" secondItem="V3Z-tj-JAl" secondAttribute="trailing" constant="16" id="OfV-8V-mGB"/>
+                            <constraint firstItem="UIH-PM-6jA" firstAttribute="top" secondItem="b5U-MF-Qsj" secondAttribute="bottom" constant="8" id="PLF-xi-1FK"/>
                             <constraint firstAttribute="trailing" secondItem="h3s-b8-Tts" secondAttribute="trailing" constant="16" id="Q5J-tA-bEO"/>
-                            <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="cHD-dE-9OL" secondAttribute="height" id="RHo-AF-rLa"/>
+                            <constraint firstItem="V3Z-tj-JAl" firstAttribute="top" secondItem="UIH-PM-6jA" secondAttribute="bottom" constant="35" id="RBh-Mi-kxz"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="b5U-MF-Qsj" secondAttribute="height" id="RuW-ou-0qD"/>
-                            <constraint firstItem="cHD-dE-9OL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Uh6-uF-ll5"/>
                             <constraint firstItem="eic-gm-7B4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="UlE-Uv-aTW"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ahf-yw-JVB"/>
                             <constraint firstItem="b5U-MF-Qsj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="bks-6g-2ki"/>
                             <constraint firstAttribute="trailing" secondItem="Vfu-Qc-8pS" secondAttribute="trailing" constant="16" id="cgQ-ho-VOm"/>
+                            <constraint firstAttribute="centerX" secondItem="UIH-PM-6jA" secondAttribute="centerX" id="dTI-RX-6Al"/>
                             <constraint firstAttribute="trailing" secondItem="b5U-MF-Qsj" secondAttribute="trailing" constant="16" id="fYb-bf-gjr"/>
                             <constraint firstItem="Vfu-Qc-8pS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="gbA-L0-CT0"/>
                             <constraint firstItem="eic-gm-7B4" firstAttribute="top" secondItem="e4T-wd-QZJ" secondAttribute="bottom" constant="20" id="glI-ex-GwM"/>
                             <constraint firstItem="b5U-MF-Qsj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="hNs-HA-eQ7"/>
-                            <constraint firstItem="cHD-dE-9OL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="izs-2R-Uzc"/>
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="kE5-w4-NBd"/>
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="lEg-Bm-BD1"/>
                             <constraint firstAttribute="trailing" secondItem="e4T-wd-QZJ" secondAttribute="trailing" constant="100" id="le1-fk-Aln"/>
-                            <constraint firstItem="V3Z-tj-JAl" firstAttribute="top" secondItem="cHD-dE-9OL" secondAttribute="bottom" constant="20" id="mIb-Y4-VPG"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="h3s-b8-Tts" secondAttribute="height" id="tne-l8-3XS"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="tyD-tl-pn3"/>
                             <constraint firstAttribute="trailing" secondItem="e4T-wd-QZJ" secondAttribute="trailing" constant="16" id="uSy-DO-JTZ"/>
                             <constraint firstAttribute="trailing" secondItem="V3Z-tj-JAl" secondAttribute="trailing" constant="100" id="vcG-U4-oGZ"/>
-                            <constraint firstAttribute="trailing" secondItem="cHD-dE-9OL" secondAttribute="trailing" constant="100" id="wMI-Oa-9C6"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="top" secondItem="h3s-b8-Tts" secondAttribute="bottom" constant="20" id="wcW-UR-iNg"/>
                             <constraint firstItem="Vfu-Qc-8pS" firstAttribute="top" secondItem="eic-gm-7B4" secondAttribute="bottom" constant="20" id="xCH-jh-E6g"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vfu-Qc-8pS" secondAttribute="bottom" constant="100" id="ylX-Xv-6nA"/>
@@ -167,8 +157,6 @@
                                 <exclude reference="1ju-6o-9Aa"/>
                                 <exclude reference="4Iy-2s-GJb"/>
                                 <exclude reference="bks-6g-2ki"/>
-                                <exclude reference="izs-2R-Uzc"/>
-                                <exclude reference="wMI-Oa-9C6"/>
                                 <exclude reference="tyD-tl-pn3"/>
                                 <exclude reference="vcG-U4-oGZ"/>
                                 <exclude reference="M16-NF-jwJ"/>
@@ -190,10 +178,6 @@
                                 <include reference="bks-6g-2ki"/>
                                 <exclude reference="fYb-bf-gjr"/>
                                 <exclude reference="hNs-HA-eQ7"/>
-                                <exclude reference="MFx-Fk-y27"/>
-                                <exclude reference="Uh6-uF-ll5"/>
-                                <include reference="izs-2R-Uzc"/>
-                                <include reference="wMI-Oa-9C6"/>
                                 <exclude reference="3v8-Om-aag"/>
                                 <exclude reference="OfV-8V-mGB"/>
                                 <include reference="tyD-tl-pn3"/>
@@ -324,7 +308,7 @@
                                                         <constraint firstAttribute="width" secondItem="GOe-OZ-tqh" secondAttribute="height" multiplier="1:1" id="rEx-qi-wUy"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="WPK-GJ-Frz">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="WPK-GJ-Frz">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Direction des voies» (P-100-G) indique: Voie de gauche : tourner à gauche et voie de droite: aller tout droit ou tourner à droite.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -365,7 +349,7 @@
                                                         <constraint firstAttribute="width" secondItem="WGQ-cc-gnb" secondAttribute="height" multiplier="1:1" id="oxd-pm-Dj4"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Voies adjacentes à une voie alternée» indique l'obligation de demeurer dans la voie signalisée par une flèche." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Hmy-LO-Z0u">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Voies adjacentes à une voie alternée» indique l'obligation de demeurer dans la voie signalisée par une flèche." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Hmy-LO-Z0u">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -405,7 +389,7 @@
                                                         <constraint firstAttribute="width" secondItem="HsC-Fx-R9I" secondAttribute="height" multiplier="1:1" id="emL-41-FDw"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Manoeuvres obligatoires» (P-110-3-D) indique l'obligation d’aller tout droit ou de tourner à droite. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lWY-JU-aJN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Manoeuvres obligatoires» (P-110-3-D) indique l'obligation d’aller tout droit ou de tourner à droite. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lWY-JU-aJN">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -445,7 +429,7 @@
                                                         <constraint firstAttribute="width" secondItem="FOC-DQ-If1" secondAttribute="height" multiplier="1:1" id="9IE-ni-mG0"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Manoeuvres interdites» (P-110-5) indique l'interdiction de faire demi-tour." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lTX-Og-eh7">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Manoeuvres interdites» (P-110-5) indique l'interdiction de faire demi-tour." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lTX-Og-eh7">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -485,7 +469,7 @@
                                                         <constraint firstAttribute="width" secondItem="Ot0-dc-6c8" secondAttribute="height" multiplier="1:1" id="KD2-1P-4yV"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-eh-40L">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-eh-40L">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Trajet obligatoire pour piétons et certaines catégories de véhicules » (P-120) indique aux piétons et aux cyclistes les trajets obligatoires.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -526,7 +510,7 @@
                                                         <constraint firstAttribute="width" secondItem="tv0-GV-WS5" secondAttribute="height" multiplier="1:1" id="cvB-Yq-WBZ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Panneau P-120-4 indique aux transporteurs des matières dangereuses les trajets qu’ils doivent emprunter." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RGD-Mx-m6t">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Panneau P-120-4 indique aux transporteurs des matières dangereuses les trajets qu’ils doivent emprunter." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RGD-Mx-m6t">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -565,7 +549,7 @@
                                                         <constraint firstAttribute="width" secondItem="Lh4-ju-CHK" secondAttribute="height" multiplier="1:1" id="6sZ-Y3-uf5"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Accès interdit aux camions» (P-130-1, P-130-15 à P-130-20) indiquent un accès interdit aux camionneurs." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ecv-Eh-ajq">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Accès interdit aux camions» (P-130-1, P-130-15 à P-130-20) indiquent un accès interdit aux camionneurs." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ecv-Eh-ajq">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -604,7 +588,7 @@
                                                         <constraint firstAttribute="width" secondItem="KJ0-qC-Upg" secondAttribute="height" multiplier="1:1" id="nmz-3z-9LY"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="xmM-TS-yK7">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="xmM-TS-yK7">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Panneau  P-120-24 permet au conducteur de camion de livraison locale de continuer à circuler sur ce chemin interdit, jusqu'à un nouveau panneau P-130-20.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -645,7 +629,7 @@
                                                         <constraint firstAttribute="width" secondItem="dL4-EW-Fnx" secondAttribute="height" multiplier="1:1" id="kCn-nQ-yKW"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jBl-9N-wSe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="jBl-9N-wSe">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Accès interdit aux transporteurs de matières dangereuses» (P-130-3) indique les chemins interdits aux transporteurs des matières dangereuses</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -686,7 +670,7 @@
                                                         <constraint firstAttribute="width" secondItem="OgQ-sQ-11S" secondAttribute="height" multiplier="1:1" id="abN-rl-0em"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Interdiction de dépasser» (P-140-1) indique le début d’une zone où le dépassement est interdit." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="P4U-DK-dMQ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Interdiction de dépasser» (P-140-1) indique le début d’une zone où le dépassement est interdit." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="P4U-DK-dMQ">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -726,7 +710,7 @@
                                                         <constraint firstAttribute="width" secondItem="3Ij-zf-F3F" secondAttribute="height" multiplier="1:1" id="dVj-JV-COG"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Stationnement réglementé» (P-150) indiquent les endroits où le stationnement est autorisé ou interdit." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="gRk-mf-Z4f">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Stationnement réglementé» (P-150) indiquent les endroits où le stationnement est autorisé ou interdit." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="gRk-mf-Z4f">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -766,7 +750,7 @@
                                                         <constraint firstAttribute="width" secondItem="3WA-ZP-sIx" secondAttribute="height" multiplier="1:1" id="eCd-rH-c50"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Arrêt interdit» (P-160) indiquent qu’il est interdit d’arrêter à l’endroit signalé par le panneau." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="9Vq-hM-bAg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Arrêt interdit» (P-160) indiquent qu’il est interdit d’arrêter à l’endroit signalé par le panneau." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="9Vq-hM-bAg">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -806,7 +790,7 @@
                                                         <constraint firstAttribute="width" secondItem="RkQ-Jf-I7J" secondAttribute="height" multiplier="1:1" id="SJ6-v4-XDe"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="TvG-X1-Zfc">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="TvG-X1-Zfc">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau «Cédez le passage» (P-20) indique l'obligation de cédez le passage aux véhicules circulant sur un chemin public prioritaire.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -847,7 +831,7 @@
                                                         <constraint firstAttribute="width" secondItem="12T-iE-nuc" secondAttribute="height" multiplier="1:1" id="p1f-D3-zM0"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Passage pour piétons» (P-270-2) indique un passage pour piétons. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gye-D4-nWe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Passage pour piétons» (P-270-2) indique un passage pour piétons. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Gye-D4-nWe">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -887,7 +871,7 @@
                                                         <constraint firstAttribute="width" secondItem="92L-Ec-7GH" secondAttribute="height" multiplier="1:1" id="i3A-ga-tQ9"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Limite de vitesse» (P-70) indiquent les limites de vitesse permises. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="xSS-JZ-3Uy">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Limite de vitesse» (P-70) indiquent les limites de vitesse permises. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="xSS-JZ-3Uy">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -927,7 +911,7 @@
                                                         <constraint firstAttribute="width" secondItem="Mec-mN-zdj" secondAttribute="height" multiplier="1:1" id="g3s-vs-mSf"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="SIE-Qt-TxC">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="SIE-Qt-TxC">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau «Entrée interdite» (P-40) indique que l’accès à un chemin public est interdit, en tout temps, à toute catégorie de véhicule.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -968,7 +952,7 @@
                                                         <constraint firstAttribute="width" secondItem="duO-Tr-uBc" secondAttribute="height" multiplier="1:1" id="4Ht-qR-CKb"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Yup-OC-CAB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Yup-OC-CAB">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau «Ligne d’arrêt» (P-60) indique l’emplacement d’une ligne d’arrêt marquée sur la chaussée où les véhicules doivent s’arrêter.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1009,7 +993,7 @@
                                                         <constraint firstAttribute="width" secondItem="eHQ-H2-bOr" secondAttribute="height" multiplier="1:1" id="KpG-Pg-3ee"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Sens unique» (P-80-1) indique l’obligation d’emprunter un chemin public dans le sens indiqué. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="XLI-AG-B2D">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Sens unique» (P-80-1) indique l’obligation d’emprunter un chemin public dans le sens indiqué. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="XLI-AG-B2D">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1049,7 +1033,7 @@
                                                         <constraint firstAttribute="width" secondItem="GT7-Cd-d4z" secondAttribute="height" multiplier="1:1" id="uih-tC-GG9"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="mje-Vg-grF">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="mje-Vg-grF">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau «Contournement d’obstacles» (P-90) indique qu’il y a une obligation de contourner l'obstacle dans le sens indiqué par la flèche.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1614,7 +1598,7 @@
                                                         <constraint firstAttribute="width" secondItem="517-72-Dc2" secondAttribute="height" multiplier="1:1" id="23i-92-28T"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Virages » (D-110) indiquent la proximité d’une ou de plusieurs courbes sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-7H-Tg6">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Virages » (D-110) indiquent la proximité d’une ou de plusieurs courbes sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="JrC-7H-Tg6">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1654,7 +1638,7 @@
                                                         <constraint firstAttribute="width" secondItem="ley-TW-pJ7" secondAttribute="height" multiplier="1:1" id="jDw-YE-cvO"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="V0p-MN-pRt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="V0p-MN-pRt">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau « Vitesse recommandée dans une voie de sortie » (D-120) indique la vitesse recommandée dans les voies de sortie d’une autoroute. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1695,7 +1679,7 @@
                                                         <constraint firstAttribute="width" secondItem="smm-bW-i8W" secondAttribute="height" multiplier="1:1" id="E3p-ZT-snS"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau « Voies parallèles » (D-140-2) indique que la circulation adjacente dispose d’une ou de plusieurs voies distinctes." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Tzd-4R-gNE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau « Voies parallèles » (D-140-2) indique que la circulation adjacente dispose d’une ou de plusieurs voies distinctes." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Tzd-4R-gNE">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1735,7 +1719,7 @@
                                                         <constraint firstAttribute="width" secondItem="gkd-QT-A0a" secondAttribute="height" multiplier="1:1" id="Gdc-Of-jzv"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NtT-br-8Ex">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NtT-br-8Ex">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Les panneaux «Signal avancé d’un passage à niveau» (D-180) indiquent, à l’avance, la proximité d’un passage à niveau traversant un chemin. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1776,7 +1760,7 @@
                                                         <constraint firstAttribute="width" secondItem="Slh-ha-m5d" secondAttribute="height" multiplier="1:1" id="Z7a-Wv-Xhm"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau « Signal avancé de cédez le passage » (D-20) indique, à l’avance, la proximité d’un panneau « Cédez le passage »." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="veX-pr-3j7">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau « Signal avancé de cédez le passage » (D-20) indique, à l’avance, la proximité d’un panneau « Cédez le passage »." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="veX-pr-3j7">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1816,7 +1800,7 @@
                                                         <constraint firstAttribute="width" secondItem="ulZ-fY-MNj" secondAttribute="height" multiplier="1:1" id="MDb-3l-gyW"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Perte de voies» (D-220) indiquent que le nombre de voies dans le même sens de circulation est réduit. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-Bh-SNI">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Perte de voies» (D-220) indiquent que le nombre de voies dans le même sens de circulation est réduit. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-Bh-SNI">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1855,7 +1839,7 @@
                                                         <constraint firstAttribute="width" secondItem="20D-Db-OOQ" secondAttribute="height" multiplier="1:1" id="mbX-JA-wzW"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="«Intersection d'une voie réservée» (D-255) indique la présence à l'intersection d'une voie réservée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="8jV-j2-6Eg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="«Intersection d'une voie réservée» (D-255) indique la présence à l'intersection d'une voie réservée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="8jV-j2-6Eg">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1894,7 +1878,7 @@
                                                         <constraint firstAttribute="width" secondItem="PtA-tA-35k" secondAttribute="height" multiplier="1:1" id="pDM-U0-IiE"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="sJ7-Xz-gkv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="sJ7-Xz-gkv">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Signal avancé d’une zone scolaire ou d’un passage pour écoliers» (D-270-1) indique à l’avance, une zone scolaire ou d’un passage pour écoliers. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1935,7 +1919,7 @@
                                                         <constraint firstAttribute="width" secondItem="tRY-j1-VXt" secondAttribute="height" multiplier="1:1" id="CC5-DH-Pl9"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Fin d’une voie ou d’un chemin» indique la fin d’un chemin public ou la fin d’une voie sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Mrf-Iw-ne1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Fin d’une voie ou d’un chemin» indique la fin d’un chemin public ou la fin d’une voie sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Mrf-Iw-ne1">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1975,7 +1959,7 @@
                                                         <constraint firstAttribute="width" secondItem="FZq-22-8Yw" secondAttribute="height" multiplier="1:1" id="hEt-ot-jTJ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Up-JA-ItA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Up-JA-ItA">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Les panneaux «Balises de danger » (D-290) indiquent la présence d’obstacles sur la chaussée, et possibilité de contourner un obstacle.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2016,7 +2000,7 @@
                                                         <constraint firstAttribute="width" secondItem="plR-fP-MAq" secondAttribute="height" multiplier="1:1" id="cCR-H4-0g5"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Chevron d’alignement » (D-301) délimitent l’alignement horizontal d’une courbe sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-0v-A9i">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Chevron d’alignement » (D-301) délimitent l’alignement horizontal d’une courbe sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-0v-A9i">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2056,7 +2040,7 @@
                                                         <constraint firstAttribute="width" secondItem="Mv5-E7-z4i" secondAttribute="height" multiplier="1:1" id="fdu-7n-1cK"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau « Présence d’un dos d’âne » (D-361) indique la présence d’un dos d’âne allongé ou d’un coussin sur la chaussée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="aht-oz-LJ0">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau « Présence d’un dos d’âne » (D-361) indique la présence d’un dos d’âne allongé ou d’un coussin sur la chaussée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="aht-oz-LJ0">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2096,7 +2080,7 @@
                                                         <constraint firstAttribute="width" secondItem="a9y-OW-6HY" secondAttribute="height" multiplier="1:1" id="lxB-MT-bvx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Nouvelle signalisation » (D-40) indiquent un changement (de panneaux « Arrêt » installés ) dans la régulation. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2pX-R5-yEl">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Nouvelle signalisation » (D-40) indiquent un changement (de panneaux « Arrêt » installés ) dans la régulation. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="2pX-R5-yEl">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2136,7 +2120,7 @@
                                                         <constraint firstAttribute="width" secondItem="AIP-tD-9UG" secondAttribute="height" multiplier="1:1" id="jnb-ED-k4u"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Signal avancé de chaussée désignée » (D-430) indiquent, à l’avance, la présence d’une chaussée désignée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="m8z-XR-H35">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Signal avancé de chaussée désignée » (D-430) indiquent, à l’avance, la présence d’une chaussée désignée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="m8z-XR-H35">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2176,7 +2160,7 @@
                                                         <constraint firstAttribute="width" secondItem="AKU-Ol-oMo" secondAttribute="height" multiplier="1:1" id="hCw-WQ-buQ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="g38-xo-007">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="g38-xo-007">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Préparez-vous à arrêter» (D-60) indique à l’avance  des feux de circulation et, par le clignotement des feux jaunes, que ces feux passeront au rouge.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2217,7 +2201,7 @@
                                                         <constraint firstAttribute="width" secondItem="ZJQ-bF-JWV" secondAttribute="height" multiplier="1:1" id="6lZ-i9-Nab"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zto-dc-Y3d">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zto-dc-Y3d">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau «Risque d'enlisement» (D-460) indique qu'un véhicule peut s’enliser s’il s’aventure sur le lit d'arrêt situé dans la voie de secours.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2258,7 +2242,7 @@
                                                         <constraint firstAttribute="width" secondItem="Eu2-1T-mkm" secondAttribute="height" multiplier="1:1" id="ERB-bD-ezQ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RIg-Jj-XYB">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RIg-Jj-XYB">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau « Signal avancé de limite de vitesse » (D-70) indique, à l’avance, l’approche d’une zone où la vitesse permise est diminuée.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2299,7 +2283,7 @@
                                                         <constraint firstAttribute="width" secondItem="hi7-6g-y16" secondAttribute="height" multiplier="1:1" id="ur2-EL-NKb"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="n9s-NT-z2P">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="n9s-NT-z2P">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Le panneau « Signal avancé de circulation à double sens » (D-80-1) indique l’approche d’une section de chemin où la circulation s’effectue à double sens.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2340,7 +2324,7 @@
                                                         <constraint firstAttribute="width" secondItem="8SW-6K-7JA" secondAttribute="height" multiplier="1:1" id="Aby-Qk-Ghc"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Chaussées séparées » (D-90) indiquent l'approche du début ou de la fin d'une chaussée séparée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="AhI-Vk-Jfl">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Chaussées séparées » (D-90) indiquent l'approche du début ou de la fin d'une chaussée séparée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="AhI-Vk-Jfl">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2472,7 +2456,7 @@
                                                         <constraint firstAttribute="width" secondItem="TTa-So-JVJ" secondAttribute="height" multiplier="1:1" id="0aZ-zB-df5"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Fusion de voies» (T-100) indique, qu’une des voies de circulation est temporairement fermée en raison de travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Eg-dZ-y2Z">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Fusion de voies» (T-100) indique, qu’une des voies de circulation est temporairement fermée en raison de travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Eg-dZ-y2Z">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2512,7 +2496,7 @@
                                                         <constraint firstAttribute="width" secondItem="4Jq-b0-JRL" secondAttribute="height" multiplier="1:1" id="9bg-fI-IA9"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Déviation de voie» (T-110) indiquent, à l’avance, que la circulation est déviée en raison de travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fu6-BK-yRI">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Déviation de voie» (T-110) indiquent, à l’avance, que la circulation est déviée en raison de travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fu6-BK-yRI">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2552,7 +2536,7 @@
                                                         <constraint firstAttribute="width" secondItem="IMh-w9-QD6" secondAttribute="height" multiplier="1:1" id="vvI-rr-MMo"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Travaux de marquage» (T-160) indique que des travaux de marquage sont effectués sur un chemin public." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-YW-WNm">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Travaux de marquage» (T-160) indique que des travaux de marquage sont effectués sur un chemin public." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="6ma-YW-WNm">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2592,7 +2576,7 @@
                                                         <constraint firstAttribute="width" secondItem="He0-Hk-JpA" secondAttribute="height" multiplier="1:1" id="dRY-QG-swq"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qk6-M3-vjT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qk6-M3-vjT">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Les panneaux T-170-4-G et T-170-4-D indiquent l'endroit où les véhicules affectés aux travaux routiers peuvent avoir accès au chantier. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2633,7 +2617,7 @@
                                                         <constraint firstAttribute="width" secondItem="xHT-BD-ws6" secondAttribute="height" multiplier="1:1" id="OeM-Ce-b3h"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="170-YQ-dd2">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="170-YQ-dd2">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Distance à parcourir avant d’atteindre l’aire de travail» (T-20) indique, à l’avance, à quelle distance de ce panneau se trouve une aire de travail.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2674,7 +2658,7 @@
                                                         <constraint firstAttribute="width" secondItem="HaS-mt-Ww8" secondAttribute="height" multiplier="1:1" id="QZ6-6F-SCV"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau « Fin des travaux » (T-40) indique la fin d’une aire de travail." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Czf-2f-iWw">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau « Fin des travaux » (T-40) indique la fin d’une aire de travail." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Czf-2f-iWw">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2713,7 +2697,7 @@
                                                         <constraint firstAttribute="width" secondItem="PKR-qd-y2m" secondAttribute="height" multiplier="1:1" id="lg1-85-wxy"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Limite de vitesse» (T-70) indiquent la vitesse maximale autorisée à proximité d’une aire de travail." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="JIx-88-nOA">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Limite de vitesse» (T-70) indiquent la vitesse maximale autorisée à proximité d’une aire de travail." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="JIx-88-nOA">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2752,7 +2736,7 @@
                                                         <constraint firstAttribute="width" secondItem="PLE-8P-fti" secondAttribute="height" multiplier="1:1" id="8jx-Gs-0tj"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NbP-cJ-Loe">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="NbP-cJ-Loe">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Réglementation temporaire du stationnement» (T-75) indiquent les endroits où le stationnement est interdit à proximité d’une aire de travail. </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2793,7 +2777,7 @@
                                                         <constraint firstAttribute="width" secondItem="0MT-cm-E97" secondAttribute="height" multiplier="1:1" id="MpL-bs-aXd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux T-80-1 à T-80-11, indiquent que l’endroit visé par le panneau est temporairement fermé à la circulation. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RFd-Y1-yxs">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux T-80-1 à T-80-11, indiquent que l’endroit visé par le panneau est temporairement fermé à la circulation. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="RFd-Y1-yxs">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2833,7 +2817,7 @@
                                                         <constraint firstAttribute="width" secondItem="Bts-N5-iWZ" secondAttribute="height" multiplier="1:1" id="abF-JH-x1F"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="aKr-GO-IDL">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="aKr-GO-IDL">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Les «Signal avancé d’un endroit temporairement fermé à la circulation » (T-85-1 à T-85-7) indiquent à l’avance un endroit temporairement fermé à la circulation.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2874,7 +2858,7 @@
                                                         <constraint firstAttribute="width" secondItem="LUW-lE-wkA" secondAttribute="height" multiplier="1:1" id="Xc8-93-5JB"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Détour» indique la direction de l'itinéraire de détour prévu en raison des travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qH2-LW-vvG">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Détour» indique la direction de l'itinéraire de détour prévu en raison des travaux." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="qH2-LW-vvG">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2914,7 +2898,7 @@
                                                         <constraint firstAttribute="width" secondItem="L3G-fl-21C" secondAttribute="height" multiplier="1:1" id="5En-lv-S2N"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lQb-Hh-1Ej">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lQb-Hh-1Ej">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">«Signal avancé de direction des voies» (T-D-100) indique, à l’avance, la voie à se ranger pour effectuer une manoeuvre à une intersection.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2955,7 +2939,7 @@
                                                         <constraint firstAttribute="width" secondItem="5N4-pT-BfR" secondAttribute="height" multiplier="1:1" id="W5a-i7-Bn7"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Limitation de hauteur» (T-D-190) indiquent la hauteur libre des ponts, des viaducs et des tunnels." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Csq-bW-P4S">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Limitation de hauteur» (T-D-190) indiquent la hauteur libre des ponts, des viaducs et des tunnels." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Csq-bW-P4S">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2995,7 +2979,7 @@
                                                         <constraint firstAttribute="width" secondItem="BAF-t0-zEI" secondAttribute="height" multiplier="1:1" id="IMr-jQ-Nq6"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Changement de l'état d'une chaussée» (T-D-340) indique l'approche d'une chaussée rainurée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Nb-tT-Qxv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Changement de l'état d'une chaussée» (T-D-340) indique l'approche d'une chaussée rainurée." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Nb-tT-Qxv">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3127,7 +3111,7 @@
                                                         <constraint firstAttribute="width" secondItem="279-ss-0eg" secondAttribute="height" multiplier="1:1" id="6kR-L3-DW1"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Panneau DIV-10 indique la direction et la distance à suivre pour se rendre à la station de police." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dOU-hQ-mJf">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Panneau DIV-10 indique la direction et la distance à suivre pour se rendre à la station de police." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dOU-hQ-mJf">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3167,7 +3151,7 @@
                                                         <constraint firstAttribute="width" secondItem="7KP-br-lGt" secondAttribute="height" multiplier="1:1" id="ml7-8P-AL3"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Directions et la distance en kilomètres à suivre pour se rendre aux villes indiquées." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BVs-Y2-EsD">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Directions et la distance en kilomètres à suivre pour se rendre aux villes indiquées." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="BVs-Y2-EsD">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3207,7 +3191,7 @@
                                                         <constraint firstAttribute="width" secondItem="Al2-rc-s2R" secondAttribute="height" multiplier="1:1" id="2xj-Zm-KBI"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Identification de route numérotée» (I-120) indiquent le numéro des routes de 100 à 399." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vws-k6-Dbg">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Identification de route numérotée» (I-120) indiquent le numéro des routes de 100 à 399." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="vws-k6-Dbg">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3247,7 +3231,7 @@
                                                         <constraint firstAttribute="width" secondItem="TJS-ob-Uur" secondAttribute="height" multiplier="1:1" id="NJb-JG-CsP"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Confirmation de sortie» (I-20) indiquent le début de la bretelle de sortie." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajW-YT-PC8">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Confirmation de sortie» (I-20) indiquent le début de la bretelle de sortie." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="ajW-YT-PC8">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3287,7 +3271,7 @@
                                                         <constraint firstAttribute="width" secondItem="f7U-WS-9Bq" secondAttribute="height" multiplier="1:1" id="3bX-T3-Giw"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Hôpital» (I-280-1) indique la présence d’un hôpital ou d’un pavillon dispensant des services continuellement." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fok-PL-hPO">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Hôpital» (I-280-1) indique la présence d’un hôpital ou d’un pavillon dispensant des services continuellement." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fok-PL-hPO">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3327,7 +3311,7 @@
                                                         <constraint firstAttribute="width" secondItem="k70-1z-adw" secondAttribute="height" multiplier="1:1" id="4Yk-MW-dzx"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau «Stationnement d’urgence» (I-285) indique la présence d’une aire de stationnement réservée aux situations d’urgence." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="82M-ea-jjk">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Le panneau «Stationnement d’urgence» (I-285) indique la présence d’une aire de stationnement réservée aux situations d’urgence." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="82M-ea-jjk">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3366,7 +3350,7 @@
                                                         <constraint firstAttribute="width" secondItem="UNq-Bi-v2P" secondAttribute="height" multiplier="1:1" id="6yc-Pj-M96"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux «Borne d’incendie» (I-295) indiquent la présence d’une borne d’incendie et ses caractéristiques." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lO8-LV-Kdf">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux «Borne d’incendie» (I-295) indiquent la présence d’une borne d’incendie et ses caractéristiques." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="lO8-LV-Kdf">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3405,7 +3389,7 @@
                                                         <constraint firstAttribute="width" secondItem="axw-fW-2BO" secondAttribute="height" multiplier="1:1" id="ncZ-yL-uUd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="inA-rq-uJY">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="inA-rq-uJY">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <string key="text">Les panneaux « Surveillance routière » indiquent l'endroit soumis à une surveillance par un système photographique de contrôle de circulation</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -3446,7 +3430,7 @@
                                                         <constraint firstAttribute="width" secondItem="nIZ-xK-5eM" secondAttribute="height" multiplier="1:1" id="a4x-n1-mFM"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Centre Infotouriste » (I-520-1 à I-520-4) indiquent les centres Infotouriste gérés par le ministère du Tourisme." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="UoL-4H-URD">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" misplaced="YES" text="Les panneaux « Centre Infotouriste » (I-520-1 à I-520-4) indiquent les centres Infotouriste gérés par le ministère du Tourisme." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="UoL-4H-URD">
                                                     <rect key="frame" x="128" y="12" width="460" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3558,6 +3542,7 @@
         <image name="P-70-2-40" width="64" height="64"/>
         <image name="P-80-1" width="64" height="64"/>
         <image name="P-90-D" width="64" height="64"/>
+        <image name="Quebec-aqua-border-256" width="512" height="128"/>
         <image name="T-10" width="64" height="64"/>
         <image name="T-100-1-D" width="64" height="64"/>
         <image name="T-110-8-D" width="64" height="64"/>
