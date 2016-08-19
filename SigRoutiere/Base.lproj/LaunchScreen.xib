@@ -96,6 +96,6 @@
         </view>
     </objects>
     <resources>
-        <image name="SignRout-launchScr" width="500" height="500"/>
+        <image name="SignRout-launchScr" width="359" height="480"/>
     </resources>
 </document>
