@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="SIGNALISATION ROUTIÈRE " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="b5U-MF-Qsj">
-                                <rect key="frame" x="16" y="34" width="568" height="65"/>
+                                <rect key="frame" x="16" y="34" width="568" height="64"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -29,8 +29,8 @@
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-tj-JAl">
-                                <rect key="frame" x="16" y="175" width="568" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-tj-JAl">
+                                <rect key="frame" x="16" y="179" width="568" height="64"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3s-b8-Tts">
-                                <rect key="frame" x="16" y="260" width="568" height="65"/>
+                                <rect key="frame" x="16" y="263" width="568" height="64"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -59,8 +59,8 @@
                                     <segue destination="ovH-zb-1Us" kind="show" id="Hq8-RP-flf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-wd-QZJ">
-                                <rect key="frame" x="16" y="345" width="568" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4T-wd-QZJ">
+                                <rect key="frame" x="16" y="347" width="568" height="65"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -74,8 +74,8 @@
                                     <segue destination="GNe-0l-fHg" kind="show" id="KAc-uI-som"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-gm-7B4">
-                                <rect key="frame" x="16" y="430" width="568" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-gm-7B4">
+                                <rect key="frame" x="16" y="432" width="568" height="64"/>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.49803921568627452" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfu-Qc-8pS">
-                                <rect key="frame" x="16" y="515" width="568" height="65"/>
+                                <rect key="frame" x="16" y="516" width="568" height="64"/>
                                 <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
@@ -104,8 +104,8 @@
                                     <segue destination="flS-j6-GXG" kind="show" id="LQS-5M-NKJ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quebec-aqua-border-256" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-PM-6jA">
-                                <rect key="frame" x="44" y="107" width="512" height="33"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Quebec-aqua-border-256" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-PM-6jA">
+                                <rect key="frame" x="44" y="106" width="512" height="33"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -119,6 +119,7 @@
                             <constraint firstItem="eic-gm-7B4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="7TU-Xi-Ejv"/>
                             <constraint firstItem="UIH-PM-6jA" firstAttribute="height" secondItem="b5U-MF-Qsj" secondAttribute="height" multiplier="1:2" id="9Td-5L-cmD"/>
                             <constraint firstAttribute="trailing" secondItem="eic-gm-7B4" secondAttribute="trailing" constant="100" id="AKC-KP-8fZ"/>
+                            <constraint firstItem="e4T-wd-QZJ" firstAttribute="top" secondItem="h3s-b8-Tts" secondAttribute="bottom" constant="40" id="Chx-gw-ulD"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="e4T-wd-QZJ" secondAttribute="height" id="HxW-7Y-K6J"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="IUt-Ds-OjT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vfu-Qc-8pS" secondAttribute="bottom" constant="20" id="KNR-sc-py1"/>
@@ -128,15 +129,17 @@
                             <constraint firstAttribute="trailing" secondItem="Vfu-Qc-8pS" secondAttribute="trailing" constant="100" id="NAZ-hV-opq"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="eic-gm-7B4" secondAttribute="height" id="NNQ-Sv-3VN"/>
                             <constraint firstAttribute="trailing" secondItem="V3Z-tj-JAl" secondAttribute="trailing" constant="16" id="OfV-8V-mGB"/>
-                            <constraint firstItem="UIH-PM-6jA" firstAttribute="top" secondItem="b5U-MF-Qsj" secondAttribute="bottom" constant="8" id="PLF-xi-1FK"/>
+                            <constraint firstItem="UIH-PM-6jA" firstAttribute="top" secondItem="b5U-MF-Qsj" secondAttribute="bottom" constant="8" id="PLF-xi-1FK" userLabel="Vertical Space - (8) - Quebec-aqua-border-256 - SIGNALISATION ROUTIÈRE"/>
                             <constraint firstAttribute="trailing" secondItem="h3s-b8-Tts" secondAttribute="trailing" constant="16" id="Q5J-tA-bEO"/>
-                            <constraint firstItem="V3Z-tj-JAl" firstAttribute="top" secondItem="UIH-PM-6jA" secondAttribute="bottom" constant="35" id="RBh-Mi-kxz"/>
+                            <constraint firstItem="V3Z-tj-JAl" firstAttribute="top" secondItem="UIH-PM-6jA" secondAttribute="bottom" constant="40" id="RBh-Mi-kxz"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="b5U-MF-Qsj" secondAttribute="height" id="RuW-ou-0qD"/>
                             <constraint firstItem="eic-gm-7B4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="UlE-Uv-aTW"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ahf-yw-JVB"/>
+                            <constraint firstItem="eic-gm-7B4" firstAttribute="top" secondItem="e4T-wd-QZJ" secondAttribute="bottom" constant="40" id="am4-Ij-qu7"/>
                             <constraint firstItem="b5U-MF-Qsj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="bks-6g-2ki"/>
                             <constraint firstAttribute="trailing" secondItem="Vfu-Qc-8pS" secondAttribute="trailing" constant="16" id="cgQ-ho-VOm"/>
                             <constraint firstAttribute="centerX" secondItem="UIH-PM-6jA" secondAttribute="centerX" id="dTI-RX-6Al"/>
+                            <constraint firstItem="UIH-PM-6jA" firstAttribute="top" secondItem="b5U-MF-Qsj" secondAttribute="bottom" constant="32" id="dh6-Qt-NC0"/>
                             <constraint firstAttribute="trailing" secondItem="b5U-MF-Qsj" secondAttribute="trailing" constant="16" id="fYb-bf-gjr"/>
                             <constraint firstItem="Vfu-Qc-8pS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="gbA-L0-CT0"/>
                             <constraint firstItem="eic-gm-7B4" firstAttribute="top" secondItem="e4T-wd-QZJ" secondAttribute="bottom" constant="20" id="glI-ex-GwM"/>
@@ -144,12 +147,14 @@
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="kE5-w4-NBd"/>
                             <constraint firstItem="h3s-b8-Tts" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="lEg-Bm-BD1"/>
                             <constraint firstAttribute="trailing" secondItem="e4T-wd-QZJ" secondAttribute="trailing" constant="100" id="le1-fk-Aln"/>
+                            <constraint firstItem="Vfu-Qc-8pS" firstAttribute="top" secondItem="eic-gm-7B4" secondAttribute="bottom" constant="40" id="rLr-r4-cFy"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="height" secondItem="h3s-b8-Tts" secondAttribute="height" id="tne-l8-3XS"/>
                             <constraint firstItem="V3Z-tj-JAl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="tyD-tl-pn3"/>
                             <constraint firstAttribute="trailing" secondItem="e4T-wd-QZJ" secondAttribute="trailing" constant="16" id="uSy-DO-JTZ"/>
                             <constraint firstAttribute="trailing" secondItem="V3Z-tj-JAl" secondAttribute="trailing" constant="100" id="vcG-U4-oGZ"/>
                             <constraint firstItem="e4T-wd-QZJ" firstAttribute="top" secondItem="h3s-b8-Tts" secondAttribute="bottom" constant="20" id="wcW-UR-iNg"/>
                             <constraint firstItem="Vfu-Qc-8pS" firstAttribute="top" secondItem="eic-gm-7B4" secondAttribute="bottom" constant="20" id="xCH-jh-E6g"/>
+                            <constraint firstItem="h3s-b8-Tts" firstAttribute="top" secondItem="V3Z-tj-JAl" secondAttribute="bottom" constant="40" id="xGX-Y9-P1t"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Vfu-Qc-8pS" secondAttribute="bottom" constant="100" id="ylX-Xv-6nA"/>
                         </constraints>
                         <variation key="default">
@@ -157,16 +162,21 @@
                                 <exclude reference="1ju-6o-9Aa"/>
                                 <exclude reference="4Iy-2s-GJb"/>
                                 <exclude reference="bks-6g-2ki"/>
+                                <exclude reference="dh6-Qt-NC0"/>
                                 <exclude reference="tyD-tl-pn3"/>
                                 <exclude reference="vcG-U4-oGZ"/>
                                 <exclude reference="M16-NF-jwJ"/>
                                 <exclude reference="lEg-Bm-BD1"/>
+                                <exclude reference="xGX-Y9-P1t"/>
+                                <exclude reference="Chx-gw-ulD"/>
                                 <exclude reference="IUt-Ds-OjT"/>
                                 <exclude reference="le1-fk-Aln"/>
                                 <exclude reference="AKC-KP-8fZ"/>
                                 <exclude reference="UlE-Uv-aTW"/>
+                                <exclude reference="am4-Ij-qu7"/>
                                 <exclude reference="NAZ-hV-opq"/>
                                 <exclude reference="gbA-L0-CT0"/>
+                                <exclude reference="rLr-r4-cFy"/>
                                 <exclude reference="ylX-Xv-6nA"/>
                             </mask>
                         </variation>
@@ -178,26 +188,37 @@
                                 <include reference="bks-6g-2ki"/>
                                 <exclude reference="fYb-bf-gjr"/>
                                 <exclude reference="hNs-HA-eQ7"/>
+                                <exclude reference="PLF-xi-1FK"/>
+                                <include reference="dh6-Qt-NC0"/>
                                 <exclude reference="3v8-Om-aag"/>
                                 <exclude reference="OfV-8V-mGB"/>
+                                <include reference="RBh-Mi-kxz"/>
                                 <include reference="tyD-tl-pn3"/>
                                 <include reference="vcG-U4-oGZ"/>
+                                <exclude reference="7EQ-Hs-f4d"/>
                                 <include reference="M16-NF-jwJ"/>
                                 <exclude reference="Q5J-tA-bEO"/>
                                 <exclude reference="kE5-w4-NBd"/>
                                 <include reference="lEg-Bm-BD1"/>
+                                <include reference="xGX-Y9-P1t"/>
+                                <include reference="Chx-gw-ulD"/>
                                 <include reference="IUt-Ds-OjT"/>
                                 <exclude reference="ahf-yw-JVB"/>
                                 <include reference="le1-fk-Aln"/>
                                 <exclude reference="uSy-DO-JTZ"/>
+                                <exclude reference="wcW-UR-iNg"/>
                                 <exclude reference="7TU-Xi-Ejv"/>
                                 <include reference="AKC-KP-8fZ"/>
                                 <exclude reference="Mbk-9h-IIp"/>
                                 <include reference="UlE-Uv-aTW"/>
+                                <include reference="am4-Ij-qu7"/>
+                                <exclude reference="glI-ex-GwM"/>
                                 <exclude reference="MUb-gb-zEL"/>
                                 <include reference="NAZ-hV-opq"/>
                                 <exclude reference="cgQ-ho-VOm"/>
                                 <include reference="gbA-L0-CT0"/>
+                                <include reference="rLr-r4-cFy"/>
+                                <exclude reference="xCH-jh-E6g"/>
                                 <exclude reference="KNR-sc-py1"/>
                                 <include reference="ylX-Xv-6nA"/>
                             </mask>
@@ -217,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="979" y="-1038"/>
+            <point key="canvasLocation" x="978.75" y="-1038"/>
         </scene>
         <!--Table View Controller-prescription-->
         <scene sceneID="tlA-wy-zTh">
@@ -573,6 +594,46 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="MKT-8R-hZ6"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="NBM-7z-OYE">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NBM-7z-OYE" id="4yt-ZI-K2S">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="P-120-1" translatesAutoresizingMaskIntoConstraints="NO" id="ICc-ph-R2R">
+                                                    <rect key="frame" x="18" y="18" width="91" height="91"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="ICc-ph-R2R" secondAttribute="height" multiplier="1:1" id="IuH-4m-mta"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau P-120-1 indique un trajet obligatoire pour les camions." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="KzK-kZ-qXr">
+                                                    <rect key="frame" x="127" y="12" width="461" height="103"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ICc-ph-R2R" firstAttribute="top" secondItem="4yt-ZI-K2S" secondAttribute="top" constant="18" id="4l2-Wd-jDc"/>
+                                                <constraint firstItem="KzK-kZ-qXr" firstAttribute="leading" secondItem="ICc-ph-R2R" secondAttribute="trailing" constant="18" id="Dej-qf-FPK"/>
+                                                <constraint firstAttribute="trailing" secondItem="KzK-kZ-qXr" secondAttribute="trailing" constant="12" id="FSZ-ed-H0m"/>
+                                                <constraint firstAttribute="centerY" secondItem="KzK-kZ-qXr" secondAttribute="centerY" id="LLK-El-sqe"/>
+                                                <constraint firstAttribute="centerY" secondItem="ICc-ph-R2R" secondAttribute="centerY" id="NAz-fJ-OGn"/>
+                                                <constraint firstItem="KzK-kZ-qXr" firstAttribute="top" secondItem="4yt-ZI-K2S" secondAttribute="top" constant="12" id="Vqc-n0-bdN"/>
+                                                <constraint firstAttribute="bottom" secondItem="ICc-ph-R2R" secondAttribute="bottom" constant="18" id="n7z-iP-FCb"/>
+                                                <constraint firstItem="ICc-ph-R2R" firstAttribute="leading" secondItem="4yt-ZI-K2S" secondAttribute="leading" constant="18" id="nfV-hI-WTW"/>
+                                                <constraint firstAttribute="bottom" secondItem="KzK-kZ-qXr" secondAttribute="bottom" constant="12" id="nzt-1F-USX"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="n7z-iP-FCb"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -2000,7 +2061,7 @@
                                                         <constraint firstAttribute="width" secondItem="plR-fP-MAq" secondAttribute="height" multiplier="1:1" id="cCR-H4-0g5"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Chevron d’alignement » (D-301) délimitent l’alignement horizontal d’une courbe sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-0v-A9i">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Les panneaux « Chevron d’alignement » D-301-1 délimitent l’alignement horizontal d’une courbe sur un chemin public. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-0v-A9i">
                                                     <rect key="frame" x="127" y="12" width="461" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2024,6 +2085,46 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="mMD-RM-LGQ"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="Qri-jq-hT4">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qri-jq-hT4" id="ell-Rl-n9q">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="D-301-2" translatesAutoresizingMaskIntoConstraints="NO" id="d9n-QL-Lkb">
+                                                    <rect key="frame" x="18" y="18" width="91" height="91"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="d9n-QL-Lkb" secondAttribute="height" multiplier="1:1" id="eIh-Bw-dWW"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="« Chevron d’alignement » D-301-2 délimit l’alignement horizontal d’une courbe - sur l’îlot central d’un carrefour giratoire. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="P50-ue-n9a">
+                                                    <rect key="frame" x="127" y="12" width="461" height="103"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="P50-ue-n9a" firstAttribute="leading" secondItem="d9n-QL-Lkb" secondAttribute="trailing" constant="18" id="6VB-3X-th6"/>
+                                                <constraint firstAttribute="bottom" secondItem="d9n-QL-Lkb" secondAttribute="bottom" constant="18" id="6Xs-tA-cif"/>
+                                                <constraint firstAttribute="bottom" secondItem="P50-ue-n9a" secondAttribute="bottom" constant="12" id="7tp-8d-Me7"/>
+                                                <constraint firstAttribute="centerY" secondItem="P50-ue-n9a" secondAttribute="centerY" id="93m-DB-rqF"/>
+                                                <constraint firstItem="d9n-QL-Lkb" firstAttribute="top" secondItem="ell-Rl-n9q" secondAttribute="top" constant="18" id="ADz-U1-ylf"/>
+                                                <constraint firstItem="P50-ue-n9a" firstAttribute="top" secondItem="ell-Rl-n9q" secondAttribute="top" constant="12" id="IJh-uv-fZi"/>
+                                                <constraint firstItem="d9n-QL-Lkb" firstAttribute="leading" secondItem="ell-Rl-n9q" secondAttribute="leading" constant="18" id="W6Q-GM-Z0a"/>
+                                                <constraint firstAttribute="trailing" secondItem="P50-ue-n9a" secondAttribute="trailing" constant="12" id="hqQ-A7-YPy"/>
+                                                <constraint firstAttribute="centerY" secondItem="d9n-QL-Lkb" secondAttribute="centerY" id="wKe-bA-tG6"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="6Xs-tA-cif"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -3111,7 +3212,7 @@
                                                         <constraint firstAttribute="width" secondItem="279-ss-0eg" secondAttribute="height" multiplier="1:1" id="6kR-L3-DW1"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Panneau DIV-10 indique la direction et la distance à suivre pour se rendre à la station de police." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dOU-hQ-mJf">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau DIV-10 indique la direction et la distance à suivre pour se rendre à la station de police." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="dOU-hQ-mJf">
                                                     <rect key="frame" x="127" y="12" width="461" height="103"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -3135,6 +3236,46 @@
                                             <variation key="default">
                                                 <mask key="constraints">
                                                     <exclude reference="lWi-en-6KH"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="5EG-Y2-tD8">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5EG-Y2-tD8" id="WuY-H1-mhJ">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="I-270-2" translatesAutoresizingMaskIntoConstraints="NO" id="vJ0-sj-dqe">
+                                                    <rect key="frame" x="18" y="18" width="91" height="91"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="vJ0-sj-dqe" secondAttribute="height" multiplier="1:1" id="3vC-qV-hwo"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau I-270-2 indique la présence d’un poste de police" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="TSc-ab-uw2">
+                                                    <rect key="frame" x="127" y="12" width="461" height="103"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vJ0-sj-dqe" firstAttribute="top" secondItem="WuY-H1-mhJ" secondAttribute="top" constant="18" id="6Rc-WC-HGH"/>
+                                                <constraint firstAttribute="centerY" secondItem="TSc-ab-uw2" secondAttribute="centerY" id="CXR-rx-l7F"/>
+                                                <constraint firstAttribute="bottom" secondItem="TSc-ab-uw2" secondAttribute="bottom" constant="12" id="GN5-uF-VUF"/>
+                                                <constraint firstAttribute="bottom" secondItem="vJ0-sj-dqe" secondAttribute="bottom" constant="18" id="JlB-HR-u1n"/>
+                                                <constraint firstItem="TSc-ab-uw2" firstAttribute="leading" secondItem="vJ0-sj-dqe" secondAttribute="trailing" constant="18" id="Nxx-dn-ncD"/>
+                                                <constraint firstItem="vJ0-sj-dqe" firstAttribute="leading" secondItem="WuY-H1-mhJ" secondAttribute="leading" constant="18" id="ZvN-sI-f0X"/>
+                                                <constraint firstAttribute="trailing" secondItem="TSc-ab-uw2" secondAttribute="trailing" constant="12" id="fJP-BP-8TP"/>
+                                                <constraint firstAttribute="centerY" secondItem="vJ0-sj-dqe" secondAttribute="centerY" id="uEU-9T-DRY"/>
+                                                <constraint firstItem="TSc-ab-uw2" firstAttribute="top" secondItem="WuY-H1-mhJ" secondAttribute="top" constant="12" id="xgh-ii-fjh"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="JlB-HR-u1n"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -3458,6 +3599,46 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="128" id="mTX-QV-LkE">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mTX-QV-LkE" id="izw-lu-VeL">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="I-520-5" translatesAutoresizingMaskIntoConstraints="NO" id="3iX-4f-Pmd">
+                                                    <rect key="frame" x="18" y="18" width="91" height="91"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="3iX-4f-Pmd" secondAttribute="height" multiplier="1:1" id="JZ9-h4-zzi"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="300" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" text="Le panneau I-520-5 indique présence d’un bureau d’information touristique." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="zx0-Lp-8CK">
+                                                    <rect key="frame" x="127" y="12" width="461" height="103"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="3iX-4f-Pmd" secondAttribute="bottom" constant="18" id="Yvt-Vl-gaG"/>
+                                                <constraint firstItem="zx0-Lp-8CK" firstAttribute="leading" secondItem="3iX-4f-Pmd" secondAttribute="trailing" constant="18" id="dKq-LH-sno"/>
+                                                <constraint firstAttribute="trailing" secondItem="zx0-Lp-8CK" secondAttribute="trailing" constant="12" id="oxl-Yq-ZOB"/>
+                                                <constraint firstItem="zx0-Lp-8CK" firstAttribute="top" secondItem="izw-lu-VeL" secondAttribute="top" constant="12" id="q5x-QO-ESP"/>
+                                                <constraint firstItem="3iX-4f-Pmd" firstAttribute="top" secondItem="izw-lu-VeL" secondAttribute="top" constant="18" id="sbm-Ta-HDb"/>
+                                                <constraint firstItem="3iX-4f-Pmd" firstAttribute="leading" secondItem="izw-lu-VeL" secondAttribute="leading" constant="18" id="sdW-3W-v1V"/>
+                                                <constraint firstAttribute="centerY" secondItem="3iX-4f-Pmd" secondAttribute="centerY" id="vB9-sd-Tkj"/>
+                                                <constraint firstAttribute="centerY" secondItem="zx0-Lp-8CK" secondAttribute="centerY" id="x1F-0f-CiW"/>
+                                                <constraint firstAttribute="bottom" secondItem="zx0-Lp-8CK" secondAttribute="bottom" constant="12" id="ydt-Tw-7XO"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="Yvt-Vl-gaG"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -3506,6 +3687,7 @@
         <image name="D-280" width="256" height="256"/>
         <image name="D-290-G" width="87" height="256"/>
         <image name="D-301-1" width="205" height="256"/>
+        <image name="D-301-2" width="256" height="85"/>
         <image name="D-361" width="256" height="256"/>
         <image name="D-40-3" width="256" height="256"/>
         <image name="D-430-11" width="256" height="256"/>
@@ -3518,16 +3700,19 @@
         <image name="DIV-31" width="256" height="171"/>
         <image name="I-120-1" width="192" height="256"/>
         <image name="I-20-1" width="207" height="256"/>
+        <image name="I-270-2" width="256" height="256"/>
         <image name="I-280-1" width="256" height="256"/>
         <image name="I-285" width="256" height="256"/>
         <image name="I-295-1" width="256" height="256"/>
         <image name="I-413-1" width="192" height="256"/>
         <image name="I-520-4" width="256" height="107"/>
+        <image name="I-520-5" width="256" height="256"/>
         <image name="P-10" width="256" height="256"/>
         <image name="P-100-10-G" width="256" height="256"/>
         <image name="P-100-13" width="256" height="256"/>
         <image name="P-110-3-D" width="256" height="256"/>
         <image name="P-110-5" width="256" height="256"/>
+        <image name="P-120-1" width="256" height="256"/>
         <image name="P-120-10-G" width="256" height="256"/>
         <image name="P-120-4" width="256" height="256"/>
         <image name="P-130-1" width="256" height="256"/>
