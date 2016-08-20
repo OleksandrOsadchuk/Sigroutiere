@@ -3494,7 +3494,7 @@
     <resources>
         <image name="Auto-05" width="128" height="128"/>
         <image name="D-100-10-D" width="64" height="64"/>
-        <image name="D-110-1-D" width="64" height="64"/>
+        <image name="D-110-1-D" width="256" height="256"/>
         <image name="D-120-15" width="64" height="64"/>
         <image name="D-140-2-G" width="64" height="64"/>
         <image name="D-180-1" width="64" height="64"/>
@@ -3503,7 +3503,7 @@
         <image name="D-255" width="64" height="64"/>
         <image name="D-270-1-D" width="64" height="64"/>
         <image name="D-280" width="64" height="64"/>
-        <image name="D-290-G" width="64" height="64"/>
+        <image name="D-290-G" width="87" height="256"/>
         <image name="D-301-1" width="64" height="64"/>
         <image name="D-361" width="64" height="64"/>
         <image name="D-40-3" width="64" height="64"/>
@@ -3533,7 +3533,7 @@
         <image name="P-130-24" width="64" height="64"/>
         <image name="P-130-3" width="64" height="64"/>
         <image name="P-140-1" width="64" height="64"/>
-        <image name="P-150-1-D" width="64" height="64"/>
+        <image name="P-150-1-D" width="256" height="256"/>
         <image name="P-160-3-G-D" width="64" height="64"/>
         <image name="P-20-1" width="64" height="64"/>
         <image name="P-270-2-D" width="64" height="64"/>
@@ -3556,7 +3556,7 @@
         <image name="T-85-7" width="64" height="64"/>
         <image name="T-90-10-D" width="64" height="64"/>
         <image name="T-D-100-6-D" width="64" height="64"/>
-        <image name="T-D-190-1" width="64" height="64"/>
+        <image name="T-D-190-1" width="256" height="256"/>
         <image name="T-D-340" width="64" height="64"/>
     </resources>
 </document>
