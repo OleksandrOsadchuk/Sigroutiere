@@ -1379,6 +1379,9 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="he2-zb-KV8" secondAttribute="height" multiplier="1:1" id="FzT-Yv-gzg"/>
                                         </constraints>
+                                        <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                            <rect key="frame" x="204" y="16" width="234" height="234"/>
+                                        </variation>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kC2-A7-O48">
                                         <rect key="frame" x="8" y="181" width="552" height="75"/>
@@ -3489,7 +3492,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Auto-05" width="256" height="256"/>
+        <image name="Auto-05" width="192" height="256"/>
         <image name="Auto-30" width="192" height="256"/>
         <image name="D-100-10-D" width="256" height="256"/>
         <image name="D-110-1-D" width="256" height="256"/>
@@ -3540,6 +3543,7 @@
         <image name="P-70-2-40" width="192" height="256"/>
         <image name="P-80-1" width="256" height="85"/>
         <image name="P-90-D" width="204" height="256"/>
+        <image name="Quebec-aqua-border-256" width="512" height="128"/>
         <image name="T-10" width="256" height="254"/>
         <image name="T-100-1-D" width="256" height="256"/>
         <image name="T-110-8-D" width="256" height="256"/>
