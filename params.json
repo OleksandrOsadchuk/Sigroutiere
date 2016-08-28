@@ -1,6 +1,6 @@
 {
-  "name": "Sigroutiere",
+  "name": "SigRoutière",
   "tagline": "iOS app.  Signalisation routière au Québec.",
-  "body": "# SigRoutière\r\nSigRoutière iOS app permet aux usagers d'apprendre les panneaux routièrs du Québec.\r\nLa signalisation fait partie intégrante du paysage routier. Elle est un outil de communication essentiel pour l'usager de la route. Elle doit, par conséquent, être conçue et installée de manière à aider l'usager de la route tout au long de son parcours en lui permettant d'adapter sa conduite aux diverses situations qui se présentent à lui, et ce, en lui évitant hésitations et fausses manœuvres.\r\n\r\nSigRoutière iOS app lets the users to learn and check knowledge of Quebec traffic signs.\r\n\r\n![SigRoutiere](https://github.com/OleksandrOsadchuk/Sigroutiere/blob/master/SignRout-launchScr.png)\r\n![carte](http://cartespostales.chezmaya.com/v2/component/zoo/item/nouveaux-panneaux-routiers-au-quebec.html)",
+  "body": "# SigRoutière\r\nSigRoutière iOS app permet aux usagers d'apprendre les panneaux routièrs du Québec.\r\n\r\nLa signalisation fait partie intégrante du paysage routier. Elle est un outil de communication essentiel pour l'usager de la route. Elle doit, par conséquent, être conçue et installée de manière à aider l'usager de la route tout au long de son parcours en lui permettant d'adapter sa conduite aux diverses situations qui se présentent à lui, et ce, en lui évitant hésitations et fausses manœuvres.\r\n\r\nSigRoutière iOS app lets the users to learn and check knowledge of Quebec traffic signs.\r\n\r\nhttps://raw.githubusercontent.com/OleksandrOsadchuk/Sigroutiere/master/SignRout-launchScr--128xx.png\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
