@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		079FBB0E1D13B6FF001BD965 /* quest.csv in Resources */ = {isa = PBXBuildFile; fileRef = 079FBB0D1D13B6FF001BD965 /* quest.csv */; };
-		079FBB101D1A3E0D001BD965 /* FIX in Resources */ = {isa = PBXBuildFile; fileRef = 079FBB0F1D1A3E0D001BD965 /* FIX */; };
 		07A552EA1C95C625009253E1 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A552E91C95C625009253E1 /* QuizViewController.m */; };
-		07CB74851C7027AB007C8659 /* SRCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CB74841C7027AB007C8659 /* SRCustomSegue.m */; };
 		07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1C96A1C1B97AA00468BF1 /* Quizz.m */; };
 		07D27ACE1CEB98290020A738 /* UINavTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D27ACD1CEB98290020A738 /* UINavTableVC.m */; };
 		07FDBA1C1C16505600339278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FDBA1B1C16505600339278 /* main.m */; };
@@ -34,11 +32,8 @@
 
 /* Begin PBXFileReference section */
 		079FBB0D1D13B6FF001BD965 /* quest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quest.csv; sourceTree = "<group>"; };
-		079FBB0F1D1A3E0D001BD965 /* FIX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FIX; sourceTree = "<group>"; };
 		07A552E81C95C625009253E1 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		07A552E91C95C625009253E1 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
-		07CB74831C7027AB007C8659 /* SRCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCustomSegue.h; sourceTree = "<group>"; };
-		07CB74841C7027AB007C8659 /* SRCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCustomSegue.m; sourceTree = "<group>"; };
 		07D1C9691C1B97AA00468BF1 /* Quizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quizz.h; sourceTree = "<group>"; };
 		07D1C96A1C1B97AA00468BF1 /* Quizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quizz.m; sourceTree = "<group>"; };
 		07D27ACC1CEB98290020A738 /* UINavTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavTableVC.h; sourceTree = "<group>"; };
@@ -99,9 +94,6 @@
 			children = (
 				07FDBA1D1C16505600339278 /* AppDelegate.h */,
 				07FDBA1E1C16505600339278 /* AppDelegate.m */,
-				07CB74831C7027AB007C8659 /* SRCustomSegue.h */,
-				07CB74841C7027AB007C8659 /* SRCustomSegue.m */,
-				079FBB0F1D1A3E0D001BD965 /* FIX */,
 				07D1C9691C1B97AA00468BF1 /* Quizz.h */,
 				07D1C96A1C1B97AA00468BF1 /* Quizz.m */,
 				07A552E81C95C625009253E1 /* QuizViewController.h */,
@@ -229,7 +221,6 @@
 			files = (
 				07FDBA251C16505600339278 /* Main.storyboard in Resources */,
 				079FBB0E1D13B6FF001BD965 /* quest.csv in Resources */,
-				079FBB101D1A3E0D001BD965 /* FIX in Resources */,
 				07FDBA2A1C16505600339278 /* LaunchScreen.xib in Resources */,
 				07FDBA271C16505600339278 /* Images.xcassets in Resources */,
 			);
@@ -254,7 +245,6 @@
 				07FDBA1F1C16505600339278 /* AppDelegate.m in Sources */,
 				07D1C96B1C1B97AA00468BF1 /* Quizz.m in Sources */,
 				07FDBA1C1C16505600339278 /* main.m in Sources */,
-				07CB74851C7027AB007C8659 /* SRCustomSegue.m in Sources */,
 				07A552EA1C95C625009253E1 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
